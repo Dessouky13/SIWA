@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 43% 91%;
+    --foreground: 30 8% 15%;
+    --card: 31 48% 95%;
+    --card-foreground: 30 8% 15%;
+    --popover: 31 48% 95%;
+    --popover-foreground: 30 8% 15%;
+    --primary: 184 100% 34%;
+    --primary-foreground: 30 43% 97%;
+    --secondary: 36 52% 54%;
+    --secondary-foreground: 30 8% 15%;
+    --muted: 30 30% 84%;
+    --muted-foreground: 30 8% 36%;
+    --accent: 184 54% 88%;
+    --accent-foreground: 30 8% 15%;
+    --destructive: 8 70% 45%;
+    --destructive-foreground: 30 43% 97%;
+    --border: 30 28% 78%;
+    --input: 30 28% 78%;
+    --ring: 184 100% 34%;
+    --chart-1: 184 100% 34%;
+    --chart-2: 36 52% 54%;
+    --chart-3: 25 58% 44%;
+    --chart-4: 202 63% 45%;
+    --chart-5: 30 8% 15%;
+    --radius: 1.25rem;
+    --font-heading: 'Cormorant Garamond', Georgia, serif;
+    --font-body: 'Albert Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --sidebar-background: 30 43% 91%;
+    --sidebar-foreground: 30 8% 15%;
+    --sidebar-primary: 184 100% 34%;
+    --sidebar-primary-foreground: 30 43% 97%;
+    --sidebar-accent: 30 30% 84%;
+    --sidebar-accent-foreground: 30 8% 15%;
+    --sidebar-border: 30 28% 78%;
+    --sidebar-ring: 184 100% 34%;
+  }
+
+  .dark {
+    --background: 30 8% 10%;
+    --foreground: 30 43% 94%;
+    --card: 30 9% 14%;
+    --card-foreground: 30 43% 94%;
+    --popover: 30 9% 14%;
+    --popover-foreground: 30 43% 94%;
+    --primary: 184 86% 45%;
+    --primary-foreground: 30 8% 10%;
+    --secondary: 36 58% 58%;
+    --secondary-foreground: 30 8% 10%;
+    --muted: 30 10% 20%;
+    --muted-foreground: 30 20% 72%;
+    --accent: 184 34% 22%;
+    --accent-foreground: 30 43% 94%;
+    --destructive: 8 64% 54%;
+    --destructive-foreground: 30 43% 94%;
+    --border: 30 10% 25%;
+    --input: 30 10% 25%;
+    --ring: 184 86% 45%;
+    --chart-1: 184 86% 45%;
+    --chart-2: 36 58% 58%;
+    --chart-3: 25 58% 54%;
+    --chart-4: 202 63% 55%;
+    --chart-5: 30 43% 94%;
+    --sidebar-background: 30 8% 10%;
+    --sidebar-foreground: 30 43% 94%;
+    --sidebar-primary: 184 86% 45%;
+    --sidebar-primary-foreground: 30 8% 10%;
+    --sidebar-accent: 30 10% 20%;
+    --sidebar-accent-foreground: 30 43% 94%;
+    --sidebar-border: 30 10% 25%;
+    --sidebar-ring: 184 86% 45%;
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .salt-crystal {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .salt-crystal::after {
+    content: '';
+    position: absolute;
+    inset: -40%;
+    background: radial-gradient(circle, hsl(var(--accent) / 0.35), transparent 45%);
+    transform: scale(0);
+    transition: transform 500ms ease;
+  }
+
+  .salt-crystal:hover::after {
+    transform: scale(1);
+  }
+
+  .heat-haze {
+    filter: saturate(1.05) contrast(1.03);
+    transition: filter 500ms ease, transform 700ms ease;
+  }
+
+  .heat-haze:hover {
+    filter: saturate(1.14) contrast(1.08) blur(0.2px);
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .kershef-map {
+    background-image:
+      linear-gradient(120deg, transparent 0 42%, hsl(var(--primary-foreground) / 0.16) 43% 44%, transparent 45%),
+      radial-gradient(circle at 20% 30%, hsl(var(--secondary) / 0.5), transparent 18%),
+      radial-gradient(circle at 80% 70%, hsl(var(--primary-foreground) / 0.3), transparent 16%);
+  }
+}
