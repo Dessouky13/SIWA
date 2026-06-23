@@ -19,8 +19,12 @@ export default function LanguageSwitcher({ variant = 'light' }) {
   return (
     <div ref={ref} className="relative">
       <button
+        type="button"
         onClick={() => setOpen(!open)}
-        className={`flex items-center gap-2 rounded-full border px-3 py-2 text-sm font-medium transition hover:scale-105 ${
+        aria-label="Change language"
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        className={`flex items-center gap-2 rounded-full border px-3 py-2 text-sm font-medium transition hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 ${
           isDark
             ? 'border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20'
             : 'border-border bg-background/80 text-foreground hover:bg-muted backdrop-blur'
@@ -32,12 +36,15 @@ export default function LanguageSwitcher({ variant = 'light' }) {
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full z-50 mt-2 min-w-[160px] overflow-hidden rounded-2xl border border-border bg-card shadow-2xl">
+        <div role="listbox" aria-label="Select language" className="absolute end-0 top-full z-50 mt-2 min-w-[160px] overflow-hidden rounded-2xl border border-border bg-card shadow-2xl">
           {languages.map((l) => (
             <button
               key={l.code}
+              type="button"
+              role="option"
+              aria-selected={l.code === lang}
               onClick={() => { setLang(l.code); setOpen(false); }}
-              className={`flex w-full items-center gap-3 px-4 py-3 text-sm transition hover:bg-muted ${
+              className={`flex w-full items-center gap-3 px-4 py-3 text-sm transition hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary ${
                 l.code === lang ? 'bg-accent font-semibold text-foreground' : 'text-foreground'
               }`}
             >

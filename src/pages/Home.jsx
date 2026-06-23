@@ -1,6 +1,7 @@
 import React from 'react';
-import FloatingCompass from '@/components/landing/FloatingCompass';
+import TopBar from '@/components/landing/TopBar';
 import Hero from '@/components/landing/Hero';
+import PhilosophyBand from '@/components/landing/PhilosophyBand';
 import ExperienceMatrix from '@/components/landing/ExperienceMatrix';
 import PackagesSection from '@/components/landing/PackagesSection';
 import BlogChronicle from '@/components/landing/BlogChronicle';
@@ -10,17 +11,15 @@ import LivingFooter from '@/components/landing/LivingFooter';
 import SocialBar from '@/components/landing/SocialBar';
 import WhatsAppFAB from '@/components/landing/WhatsAppFAB';
 
-const HERO_IMAGE = 'https://media.base44.com/images/public/6a27d392c56bb9d87f135152/b61974c83_generated_c2a51af2.png';
-const TEA_IMAGE  = 'https://media.base44.com/images/public/6a27d392c56bb9d87f135152/b39aa01e5_generated_289509c8.png';
-
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background text-foreground">
-      <FloatingCompass />
-      <Hero image={HERO_IMAGE} />
+    <main className="relative min-h-screen bg-background text-foreground">
+      <TopBar />
+      <Hero />
+      <PhilosophyBand />
       <ExperienceMatrix />
       <PackagesSection />
-      <BlogChronicle image={TEA_IMAGE} />
+      <BlogChronicle />
       <SocialBar />
       <SocialProof />
       <InquiryPanel />

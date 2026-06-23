@@ -75,7 +75,8 @@ export default function SocialBar() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.07 }}
-                className={`flex items-center gap-3 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground shadow-sm transition hover:-translate-y-1 hover:text-white hover:shadow-lg ${color}`}
+                aria-label={`Follow Mohamed Kelany on ${label}`}
+                className={`flex items-center gap-3 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground shadow-sm transition hover:-translate-y-1 hover:text-white hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 ${color}`}
               >
                 {icon}
                 {label}

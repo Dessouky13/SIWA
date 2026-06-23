@@ -1,0 +1,435 @@
+{
+  "brand": {
+    "heroKicker": "Siwa mit Kelany",
+    "heroHeadline": "Wo die Zeit langsamer wird und sich etwas in dir neu ordnet",
+    "heroSub": "Eine kuratierte Slow-Living-Reise in die ägyptische Wüste – für alle, die Tiefe statt Tempo suchen, Präsenz statt Ablenkung und Sinn statt bloßer Bewegung.",
+    "heroCtaPrimary": "Das Gespräch beginnen",
+    "heroCtaSecondary": "Die Reisen entdecken",
+    "philosophyKicker": "Die Philosophie von Siwa",
+    "philosophyTitle": "Das ist kein Tourismus. Das ist Erneuerung.",
+    "philosophyBody": "Verborgen zwischen den endlosen goldenen Dünen der ägyptischen Wüste liegt ein Ort, an dem die Zeit langsamer wird … und sich etwas in dir neu ordnet. Siwa ist kein Reiseziel, das man einfach besucht – es ist ein Raum, den man betritt, um sich wieder mit der Stille, der Natur und sich selbst zu verbinden.\n\nHier folgt der Rhythmus des Lebens dem Wind, der Sonne und der Ruhe der Salzseen. Jeder Sonnenaufgang fühlt sich wie ein Neubeginn an, und jeder Sonnenuntergang wie eine stille Rückkehr zu etwas zutiefst Vertrautem.\n\nDu schwebst in mineralreichen Salzseen mit heilender Wirkung, badest in uralten heißen Quellen zwischen Palmen, durchquerst schweigende Wüsten unter unendlichem Himmel und versammelst dich mit siwanischen Familien unter einem sternenüberfluteten Nachthimmel. Jeder Moment ist bewusst gestaltet, um Klarheit, Erdung und innere Weite zu schenken.\n\nEine Rückkehr zur Einfachheit. Eine Wiederverbindung mit dem Körper. Ein stilles Gespräch mit der Natur.",
+    "philosophyClosing": "Verlasse Siwa nicht als Besucher … sondern als jemand, der sich an etwas erinnert hat, das längst vergessen war.",
+    "experiencesKicker": "Kern-Erlebnisse",
+    "experiencesTitle": "Momente, die dich über Jahre begleiten",
+    "experiencesIntro": "Jede Reise ist aus denselben lebendigen Elementen der Oase gewoben – Wasser, das dich trägt, Wüsten, die dich zur Ruhe bringen, und Rituale, die dich zu dir selbst zurückführen.",
+    "programsKicker": "Die Reisen",
+    "programsTitle": "Sechs Wege, sich an etwas Vergessenes zu erinnern",
+    "programsIntro": "Von einer einzigen leuchtenden Nacht bis zu einem sechstägigen Rückzug in die Stille – jede Reiseroute wird langsam und bewusst gestaltet und ganz auf dich abgestimmt. Sag uns, wie viel Zeit du hast, und wir kümmern uns um den Rest.",
+    "priceOnRequest": "Individuell für deine Gruppe – Preis auf Anfrage",
+    "bookCta": "Über WhatsApp reservieren",
+    "detailsCta": "Die Reise ansehen",
+    "whatsappCta": "Schreib uns auf WhatsApp +201063764483",
+    "viewItinerary": "Den vollständigen Reiseverlauf ansehen",
+    "includedLabel": "Im Preis enthalten",
+    "durationLabel": "Dauer",
+    "groupLabel": "Gruppengröße",
+    "locationLabel": "Ort",
+    "highlightsLabel": "Höhepunkte"
+  },
+  "experiences": [
+    {
+      "id": "salt-lake",
+      "title": "Salzseen & Schweben",
+      "tag": "Heilende Wasser",
+      "duration": "Halber Tag",
+      "groupSize": "Privat oder Kleingruppe",
+      "location": "Salzseen der Oase Siwa",
+      "desc": "Tritt in türkisfarbenes Wasser, das so reich an Mineralien ist, dass es dich schwerelos an seiner Oberfläche trägt. Lehn dich zurück, lass los und spüre, wie das Salz jede Anspannung aus dem Körper zieht. Das ist mehr als ein Bad – es ist ein körperliches Loslassen, ein stilles Abstreifen negativer Energie, umgeben von weißen Ufern, die sich in reine Wüstenstille verlieren.",
+      "highlights": [
+        "Mühelos schweben im mineralreichen, türkisfarbenen Wasser",
+        "Ein heilsames, körperlich befreiendes Bad, einzigartig für Siwa",
+        "Blendend weiße Salzufer und spiegelglatte Reflexionen",
+        "Tiefe Stille, fern von Menschenmengen und Lärm",
+        "Weiches, fotogenes Licht im Morgengrauen und zur goldenen Stunde",
+        "Behutsame Begleitung für alle, die zum ersten Mal schweben"
+      ]
+    },
+    {
+      "id": "springs",
+      "title": "Kleopatra-Quelle, heiße Quellen & Salzhöhle",
+      "tag": "Langsames Ritual",
+      "duration": "Halber Tag",
+      "groupSize": "Privat oder Kleingruppe",
+      "location": "Kleopatra-Quelle & Quellen der Oase",
+      "desc": "Lass dich in warmes Naturwasser zwischen fruchttragende Palmen gleiten, wo der Legende nach einst Königinnen badeten. Dann treibe zwischen uralten heißen Quellen und einer kerzenbeleuchteten Salzhöhle für eine Stunde tiefer Entspannung – Wärme, mineralhaltige Luft und sanftes Licht lösen alles, was die Reise mit sich getragen hat. Ein Ritual aus Wärme, Geduld und stiller Erneuerung.",
+      "highlights": [
+        "Warmes Naturwasser der sagenumwobenen Kleopatra-Quelle",
+        "Uralte heiße Quellen, umrahmt von wiegenden Palmen",
+        "Tiefenentspannung in der kerzenbeleuchteten Salzhöhle",
+        "Mineralreiche Luft, der man heilende und wohltuende Wirkung nachsagt",
+        "Ein gemächliches, kontemplatives Tempo",
+        "Umgeben von grüner Oase und Vogelgesang"
+      ]
+    },
+    {
+      "id": "safari",
+      "title": "4x4-Safari im Großen Sandmeer & Sandboarding",
+      "tag": "Wilde Stille",
+      "duration": "Ganzer Tag",
+      "groupSize": "Privater 4x4 oder kleiner Konvoi",
+      "location": "Großes Sandmeer & Naturreservat Siwa",
+      "desc": "Fahre tief hinein in die windgeformten Dünen des Großen Sandmeers, wo im Herzen des Sandes Geschichten geboren werden. Erklimme goldene Kämme im 4x4, gleite auf dem Board sanfte Hänge hinab und verstumme, wenn die Wüste sich bei Sonnenuntergang tiefgolden färbt. Wenn die Nacht hereinbricht, versammelt ihr euch am Lagerfeuer zu einem beduinischen Festmahl und Minztee unter einem makellos klaren, sternenüberfluteten Himmel.",
+      "highlights": [
+        "Aufregende 4x4-Durchquerung der Dünen des Großen Sandmeers",
+        "Sandboarding hinab über weiche goldene Hänge",
+        "Beduinisches, über Holzkohle gegartes Wüstenmittagessen",
+        "Tee in Gesellschaft beduinischer Gastgeber",
+        "Der majestätische Wüstensonnenuntergang über endlosen Dünen",
+        "Lagerfeuer-Dinner und siwanischer Minztee unter den Sternen",
+        "Sternenbeobachtung in absoluter, unberührter Dunkelheit"
+      ]
+    },
+    {
+      "id": "temple",
+      "title": "Orakeltempel & lebendige Geschichte",
+      "tag": "Uralte Echos",
+      "duration": "Halber Tag",
+      "groupSize": "Privat oder Kleingruppe",
+      "location": "Amun-Tempel & Berg der Toten",
+      "desc": "Steh dort, wo einst Alexander der Große in der Stille der Wüste nach Antworten suchte – am Orakeltempel des Amun. Von oben entfaltet sich ein weites Panorama: ein grünes Meer aus Palmen- und Olivenhainen, das bis zum Horizont gegen den Sand ankämpft. Ganz in der Nähe tragen pharaonische und griechische Gräber, in den Berg der Toten gehauen, die vielschichtige, leuchtende Geschichte der Oase.",
+      "highlights": [
+        "Der legendäre Orakeltempel des Amun",
+        "Auf den Spuren Alexanders des Großen wandeln",
+        "Weites Panorama über die grüne Oase und die schimmernden Seen",
+        "Pharaonische und griechische Gräber im Berg der Toten",
+        "Geschichten von einstigen Pilgern und Suchenden",
+        "Goldenes Licht über Palmen- und Olivenhainen"
+      ]
+    },
+    {
+      "id": "shali",
+      "title": "Festung Shali & Altstadt",
+      "tag": "Erbe & Licht",
+      "duration": "Halber Tag",
+      "groupSize": "Privat oder Kleingruppe",
+      "location": "Festung Shali & Siwanisches Museum",
+      "desc": "Streife durch die alten Gassen von Shali, die einstige Lehmziegelstadt aus Kershef – salzgetränkter Erde, die im späten Sonnenlicht bernsteinfarben leuchtet. Lerne im örtlichen Museum die Rhythmen des siwanischen Lebens kennen, stöbere auf dem alten Markt nach Datteln, Oliven und Kunsthandwerk und beobachte dann den Sonnenuntergang von der Spitze der Festung, während die ganze Oase sanft in den Abend gleitet.",
+      "highlights": [
+        "Ein Gang durch die uralten Kershef-Gassen von Shali",
+        "Die Geschichte der Salzlehm-Architektur, die in der Dämmerung leuchtet",
+        "Sonnenuntergang von der Spitze der alten Festung",
+        "Siwanisches Museum – Häuser, Bräuche, Kleidung und Alltag",
+        "Alter Markt mit Datteln, Oliven und siwanischem Kunsthandwerk",
+        "Optionales Dinner bei Kerzenlicht auf dem Dach von Shali"
+      ]
+    },
+    {
+      "id": "white-desert",
+      "title": "Weiße Wüste & Nachtcamping",
+      "tag": "Unwirkliche Nächte",
+      "duration": "Mehrtägig",
+      "groupSize": "Privater 4x4 oder Kleingruppe",
+      "location": "Bahariya, Schwarze Wüste & Weiße Wüste",
+      "desc": "Tritt ein in eine Landschaft, die sich wie ein anderer Planet anfühlt – kreideweiße Felsformationen, vom Wind zu Pilzen, Türmen und Dünen geformt, verstreut über ein schweigendes Sandmeer. Passiere im 4x4 die Schwarze Wüste, den Kristallberg und das Agabat-Tal und schlage dann das Lager auf, während der Himmel Feuer fängt. Dinner am Feuer, Tee und eine Nacht unter einem der klarsten Sternenhimmel der Erde.",
+      "highlights": [
+        "Surreale kreideweiße Felsformationen der Weißen Wüste",
+        "Schwarze Wüste, Kristallberg und Agabat-Tal",
+        "Pilzfelsen und windgeformte Skulpturen",
+        "Sonnenuntergang und Sonnenaufgang über der Wüstenstille",
+        "Traditionelles beduinisches Lagerfeuer-Dinner",
+        "Übernachtung im Camp unter einem dicht mit Sternen übersäten Himmel",
+        "Kalte Schwefelquelle und verborgene Wüstentäler"
+      ]
+    },
+    {
+      "id": "sunset-island",
+      "title": "Sonnenuntergangsinsel & Tee-Ritual",
+      "tag": "Stille Rückkehr",
+      "duration": "Abend",
+      "groupSize": "Privat oder Kleingruppe",
+      "location": "Die Seeinseln von Siwa",
+      "desc": "Segle über stilles Wasser zu einer von Siwas verzauberten Inseln und sitze in Schweigen, während die Sonne im See versinkt. Das Minztee-Ritual wird langsam zelebriert, die Luft kühlt ab und der Tag lockert seinen Griff. Das ist die stille Rückkehr – der Moment, in dem die Oase nichts weiter von dir verlangt, als präsent zu sein und dich zu erinnern.",
+      "highlights": [
+        "Sonnenuntergangsfahrt zu einer friedvollen Insel in Siwa",
+        "In der Stille sitzen, während die Sonne im See zerfließt",
+        "Das langsame, wärmende siwanische Minztee-Ritual",
+        "Spiegelglattes Wasser und sanfte Abendfarben",
+        "Vogelgesang, Palmen und absolute Stille",
+        "Ein bewusster Moment der Präsenz und des Innehaltens"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "siwa-1n",
+      "name": "Entdecke den Zauber von Siwa",
+      "subtitle": "1 Nacht / 2 Tage – ein erster Vorgeschmack der Oase, der nachklingt",
+      "durationLabel": "1 Nacht / 2 Tage",
+      "badge": "Markenzeichen",
+      "summary": "Ein abendlicher Transfer von Kairo im privaten Wagen oder Reisebus, dann zwei bewusst gestaltete Tage, die die Essenz von Siwa bündeln – ihren Tempel, ihre Quellen, ihre Dünen und ihr Salz – zu einer einzigen leuchtenden ersten Begegnung.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Tag 1 – Den Zauber von Siwa entdecken",
+          "items": [
+            "Abendlicher Transfer von Kairo im privaten Wagen oder Reisebus (nach deiner Wahl)",
+            "Ankunft in der Oase Siwa, Hotel-Check-in und Ruhe nach der Reise",
+            "Orakeltempel des Amun, wo einst Alexander der Große nach Antworten suchte",
+            "Weites Panorama über die Oase, die schimmernden Seen sowie Palmen- und Olivenhaine",
+            "Kleopatra-Quelle – warmes Naturwasser zwischen den Palmen",
+            "4x4-Safari ins Naturreservat von Siwa, Dünen und Sandboarding mit Fotostopps",
+            "Beduinischer Tee in Gesellschaft der einheimischen Gastgeber",
+            "Sonnenuntergang in der Wüste und ein beduinisches Dinner unter freiem Himmel",
+            "Sternenbeobachtung, dann Rückkehr zum Hotel"
+          ]
+        },
+        {
+          "title": "Tag 2 – Zwischen Salz und Geschichte",
+          "items": [
+            "Mühelos schweben in den türkisfarbenen, mineralreichen Salzseen",
+            "Natürliche heiße Quellen",
+            "Tiefenentspannung in der Salzhöhle",
+            "Siwanisches Museum – lokales Leben, Häuser, Bräuche und Kleidung",
+            "Festung Shali und die alten Lehmziegelgassen",
+            "Sonnenuntergang auf einer von Siwas wunderschönen Inseln",
+            "Rückkehr nach Kairo am Abend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siwa-2n",
+      "name": "Siwa, 2 Nächte / 3 Tage",
+      "subtitle": "2 Nächte / 3 Tage – Raum zum Atmen, Treiben und Ankommen",
+      "durationLabel": "2 Nächte / 3 Tage",
+      "badge": "Am meisten geliebt",
+      "summary": "Ein Transfer von Kairo am Morgen oder Abend und eine Reiseroute, die sich nach dir richtet – Tempel und Quelle, ein ganzer Tag im Großen Sandmeer und langsame Inselmorgen, alles entfaltet sich im Tempo der Oase.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Tag 1 – Ankunft & erstes Licht",
+          "items": [
+            "Transfer von Kairo, morgens oder abends, im Wagen oder Reisebus",
+            "Ankunft, Hotel-Check-in und Ruhe",
+            "Orakeltempel des Amun",
+            "Kleopatra-Quelle",
+            "Eine wunderschöne Insel in Siwa und Sonnenuntergang inmitten atemberaubender Natur",
+            "Dinner bei Kerzenlicht in einem Restaurant, dann Rückkehr zum Hotel"
+          ]
+        },
+        {
+          "title": "Tag 2 – Salz, Quellen & die große Safari",
+          "items": [
+            "Schweben in den Salzseen",
+            "Natürliche heiße Quellen und eine Entspannungsstunde in der Salzhöhle",
+            "4x4-Safari in die Wüste mit einem besonderen siwanischen Mittagessen, im Herzen des Sandes gegart",
+            "Naturreservat Siwa – Dünen, Geröllfelder und Berge, mit Fotostopps",
+            "Beduinischer Tee mit Einheimischen und Sandboarding",
+            "Wüstensonnenuntergang und ein beduinisches Dinner unter freiem Himmel",
+            "Sternenbeobachtung, dann Rückkehr zum Hotel"
+          ]
+        },
+        {
+          "title": "Tag 3 – Inselfrühstück & das alte Shali",
+          "items": [
+            "Frühstück auf einer von Siwas wunderschönen Inseln",
+            "Festung Shali und ein Streifzug durch die alten Gassen",
+            "Abfahrt um 22:30 Uhr zurück nach Kairo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siwa-4n",
+      "name": "Lebe die Legende",
+      "subtitle": "4 Tage / 3 Nächte – die Legende leben, nicht nur besuchen",
+      "durationLabel": "4 Tage / 3 Nächte",
+      "badge": "Epische Reise",
+      "summary": "Vier gemächliche Tage, die von den Spuren Alexanders bis zu einem ganzen Tag im Großen Sandmeer führen, von weißen Heilwassern bis zu einem Dinner bei Kerzenlicht auf dem Dach von Shali – und mit einem neuen Herzen wieder nach Hause.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Tag 1 – Eintritt ins Land der Geheimnisse & der erste Sonnenuntergang",
+          "items": [
+            "Ankunft und Entspannung, die reine Oasenluft aus Oliven und Palmen atmen",
+            "Orakeltempel des Amun, auf den Spuren Alexanders des Großen, mit einem vollen Panorama von Siwa als grünem Meer, das gegen den Sand ankämpft",
+            "Kleopatra-Quelle – warmes Naturwasser zwischen fruchttragenden Palmen",
+            "Sonnenuntergangsfahrt zu einer von Siwas verzauberten Inseln; in Schweigen sitzen, während die Sonne im See versinkt",
+            "Warmes siwanisches Dinner in der ruhigen Oasenluft, dann Rückkehr zum Hotel"
+          ]
+        },
+        {
+          "title": "Tag 2 – Die große Safari, wo im Sand Geschichten geboren werden",
+          "items": [
+            "Traditionelles Frühstück inmitten unberührter Natur auf einer Insel in Siwa",
+            "10:30 Uhr – die 4x4-Fahrzeuge brechen für einen ganzen Tag ins Große Sandmeer auf",
+            "Ein echter Nervenkitzel beim Durchqueren der goldenen, windgeformten Dünen",
+            "Ein ganz besonderes beduinisches Mittagessen, auf authentische Weise über Holzkohle gegart",
+            "Sandboarding über den weichen Sand",
+            "Der majestätische Wüstensonnenuntergang, wenn sich der Sand tiefgolden färbt",
+            "Lagerfeuer-Runde (Raqya) mit einem üppigen beduinischen Dinner und siwanischem Minztee unter einem sternenübersäten Himmel, dann Rückkehr zum Hotel"
+          ]
+        },
+        {
+          "title": "Tag 3 – Weiße Heilung, der Duft der Geschichte & das leuchtende Shali",
+          "items": [
+            "Salzseen – mühelos schweben und jede negative Energie loslassen",
+            "Heiße Quellen und Tiefenentspannung in der Salzhöhle bei sanftem Kerzenlicht",
+            "Berg der Toten – pharaonische und griechische Gräber, in den Berg gehauen",
+            "Festung Shali und die Geschichte des Kershef, des salzgetränkten Lehmziegels",
+            "Sonnenuntergang, betrachtet von der Spitze der Festung",
+            "Freie Zeit auf dem alten Markt für Datteln, Oliven und siwanisches Kunsthandwerk",
+            "Ein außergewöhnliches Dinner bei Kerzenlicht auf dem Dach von Shali, dann Rückkehr zum Hotel"
+          ]
+        },
+        {
+          "title": "Tag 4 – Abschied, die Rückkehr mit einem neuen Herzen",
+          "items": [
+            "Frühstück im Hotel und ein letzter Blick auf die Oase",
+            "Check-out und Abreise, mit einer siwanischen Ruhe, die dich über Jahre begleitet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siwa-5n",
+      "name": "Rückzug für Natur, Entspannung & Meditation",
+      "subtitle": "5 Nächte / 6 Tage – für Liebhaber von Natur, Stille und einfachem Leben",
+      "durationLabel": "5 Nächte / 6 Tage",
+      "badge": "Rückzug",
+      "summary": "Das tiefste Eintauchen – sechs Tage Salzseen, natürliche Quellen, offene Wüste und authentische siwanische Kultur, mit eingewobenem Raum, um zu meditieren, neue Kraft zu schöpfen und einfach zu sein.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Tag 1 – Ankunft & Entspannung",
+          "items": [
+            "Ankunft und Hotel-Check-in, dann Ruhe",
+            "Eine natürliche heiße Quelle mit warmem, wohltuendem Wasser",
+            "Zeit, um in der Ruhe der Oase zu entspannen und zu meditieren",
+            "Ein gesundes Dinner und Übernachtung"
+          ]
+        },
+        {
+          "title": "Tag 2 – Salzseen & Festung Shali",
+          "items": [
+            "Traditionelles siwanisches Frühstück auf einer wunderschönen natürlichen Insel",
+            "Natürliches Schweben in den Salzseen",
+            "Eine heiße Quelle zur Entspannung",
+            "Festung Shali und die Altstadt; ein Gang durch die historischen Gassen und Einblicke in Geschichte und Kultur der Oase",
+            "Sonnenuntergang von der Spitze der Festung",
+            "Ein besonderes Dinner in geschichtsträchtigem Ambiente und bei Kerzenlicht, dann Rückkehr zum Hotel"
+          ]
+        },
+        {
+          "title": "Tag 3 – Safari im Großen Sandmeer",
+          "items": [
+            "Ganztägige Wüstensafari durch goldene Dünen und verzaubernde Landschaften",
+            "Meditation und Stille in der Natur der Wüste",
+            "Ein gesundes, besonderes siwanisches Mittagessen",
+            "Sonnenuntergang im Herzen der Wüste",
+            "Beduinisches Dinner unter freiem Himmel und Sternenbeobachtung am klaren Nachthimmel, dann Rückkehr zum Hotel"
+          ]
+        },
+        {
+          "title": "Tag 4 – Tag der Entspannung & Natur",
+          "items": [
+            "Salzseen",
+            "Eine Pflegeanwendung mit natürlichen Ölen",
+            "Heiße Quellen zum Entspannen und Erneuern",
+            "Rückkehr zum Hotel und Ruhe",
+            "Eine ruhige Bootsfahrt zu einer von Siwas natürlichen Inseln",
+            "Sonnenuntergang inmitten atemberaubender Natur, dann Rückkehr zum Hotel"
+          ]
+        },
+        {
+          "title": "Tag 5 – Kleopatra-Quelle & Amun-Tempel",
+          "items": [
+            "Kleopatra-Quelle und ihre natürliche Umgebung",
+            "Entspannungsstunde in der Salzhöhle",
+            "Freie Zeit",
+            "Orakeltempel des Amun",
+            "Ein natürlicher Berg für einen Panoramablick über die Oase",
+            "Sonnenuntergang, Dinner und Rückkehr zum Hotel"
+          ]
+        },
+        {
+          "title": "Tag 6 – Abreise",
+          "items": [
+            "Frühstück und Hotel-Check-out",
+            "Rückkehr nach Kairo mit unvergesslichen Erinnerungen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bahariya-1n",
+      "name": "Oase Bahariya & Weiße Wüste",
+      "subtitle": "1 Nacht / 2 Tage – hinein ins unwirkliche Weiß",
+      "durationLabel": "1 Nacht / 2 Tage",
+      "badge": "Markenzeichen",
+      "summary": "Ein schneller Ausbruch aus Kairo in die surrealen Landschaften von Bahariya und der Weißen Wüste – schwarze Gipfel, Kristallberge und kreideweiße Skulpturen, mit einer Nacht im Camp unter einem Meer aus Sternen.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Tag 1 – Durch die Wüste ins Weiß",
+          "items": [
+            "07:00 Uhr Abfahrt aus Kairo; 11:00 Uhr Ankunft in der Oase Bahariya; Mittagessen",
+            "Beginn der 4x4-Wüstensafari: Schwarze Wüste und Beduinendorf",
+            "Kristallberg, Agabat-Tal und Pilzfelsen",
+            "Felsformationen der alten und der neuen Weißen Wüste",
+            "Sonnenuntergang über der Weißen Wüste, dann Ankunft am Campingplatz",
+            "Traditionelles beduinisches Dinner (gegrilltes Hähnchen), Tee und eine Lagerfeuer-Runde",
+            "Sternenbeobachtung und Übernachtung im Zelt (ein Zelt für je zwei Personen)"
+          ]
+        },
+        {
+          "title": "Tag 2 – Sonnenaufgang & Rückkehr",
+          "items": [
+            "Sonnenaufgang in der Wüste",
+            "Frühstück im Camp",
+            "Morgendliche Erkundung weiterer Felsformationen und einzigartiger Landschaften",
+            "Rückkehr zur Oase Bahariya; 10:00 Uhr Abfahrt Richtung Kairo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-desert-3n",
+      "name": "Expedition Weiße Wüste",
+      "subtitle": "3 Tage / 2 Nächte – tief hinein in die Stille des Sandes",
+      "durationLabel": "3 Tage / 2 Nächte",
+      "badge": "Epische Reise",
+      "summary": "Eine umfassend betreute dreitägige Expedition durch die Schwarze und die Weiße Wüste – Schwefelquellen, Kristallberge, verborgene Täler und eine Nacht im Camp im Herzen der neuen Weißen Wüste, mit allen Mahlzeiten und der gesamten Ausrüstung versorgt.",
+      "inclusions": [
+        "Privates 4x4-Jeep-Fahrzeug",
+        "Frühstück, Mittag- und Abendessen – alle Mahlzeiten während der Tour",
+        "Mineralwasser, Obst, heiße und kalte Getränke",
+        "Komplette Campingausrüstung: Zelt, Matratzen, Decken und Schlafsäcke",
+        "Englischsprachiger Guide",
+        "Eine Hotelübernachtung in der Oase Bahariya",
+        "Eine Nacht im Camp in der Weißen Wüste"
+      ],
+      "days": [
+        {
+          "title": "Tag 1 – Hinein in die Schwarze Wüste",
+          "items": [
+            "Abfahrt in die Wüste",
+            "Schwarze Wüste und kalte Schwefelquelle",
+            "Beduinendorf und Kristallberg",
+            "Rückkehr zur Oase Bahariya; Dinner",
+            "Übernachtung im Hotel in der Oase Bahariya"
+          ]
+        },
+        {
+          "title": "Tag 2 – Ganztägige Safari & Camping",
+          "items": [
+            "Ganztägige Wüstensafari: Gebiet El Agabat und Sandboarding",
+            "Mondhöhle, Tal der Palme und Talcamps",
+            "Formationen der neuen und der alten Weißen Wüste",
+            "Beduinisches Dinner",
+            "Übernachtung im Camp in der neuen Weißen Wüste unter den Sternen und der friedlichen Atmosphäre der Wüste"
+          ]
+        },
+        {
+          "title": "Tag 3 – Sonnenaufgang & Abschied",
+          "items": [
+            "Sonnenaufgang in der Weißen Wüste",
+            "Frühstück",
+            "Weitere Formationen der Weißen Wüste erkunden",
+            "Rückkehr zur Oase Bahariya und Abreise"
+          ]
+        }
+      ]
+    }
+  ]
+}

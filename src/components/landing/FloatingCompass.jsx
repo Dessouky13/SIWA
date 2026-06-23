@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Compass, X } from 'lucide-react';
+import React from 'react';
+import { X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '@/lib/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -43,9 +43,14 @@ const SocialIcon = ({ label }) => {
   return map[label] || null;
 };
 
-export default function FloatingCompass() {
-  const [open, setOpen] = useState(false);
+/**
+ * The slide-over navigation overlay. The trigger button now lives in <TopBar />
+ * so all persistent floating chrome is consolidated into one aligned cluster;
+ * `open` / `onClose` are controlled by the parent.
+ */
+export default function FloatingCompass({ open = false, onClose }) {
   const { t } = useLanguage();
+  const setOpen = (v) => { if (!v) onClose?.(); };
 
   const navLinks = [
     { label: t('navArrival'), href: '#arrival' },
@@ -57,14 +62,6 @@ export default function FloatingCompass() {
 
   return (
     <>
-      <button
-        onClick={() => setOpen(true)}
-        className="fixed right-5 top-5 z-50 flex h-14 w-14 items-center justify-center rounded-full border border-primary/30 bg-background/80 text-primary shadow-xl backdrop-blur transition hover:scale-105 hover:bg-primary hover:text-primary-foreground"
-        aria-label="Open navigation"
-      >
-        <Compass className="h-6 w-6" />
-      </button>
-
       <AnimatePresence>
         {open && (
           <motion.div
@@ -76,7 +73,7 @@ export default function FloatingCompass() {
             <div className="absolute inset-0 opacity-10 kershef-map" />
             <button
               onClick={() => setOpen(false)}
-              className="absolute right-5 top-5 z-10 rounded-full border border-primary-foreground/30 p-4 transition hover:bg-primary-foreground hover:text-primary"
+              className="absolute right-5 top-5 z-10 rounded-full border border-primary-foreground/30 p-4 transition hover:bg-primary-foreground hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
               aria-label="Close navigation"
             >
               <X className="h-6 w-6" />
@@ -94,7 +91,7 @@ export default function FloatingCompass() {
                       key={link.href}
                       href={link.href}
                       onClick={() => setOpen(false)}
-                      className="group flex items-baseline gap-5"
+                      className="group flex items-baseline gap-5 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-4 focus-visible:ring-offset-primary"
                     >
                       <span className="font-body text-base text-primary-foreground/40">0{index + 1}</span>
                       <span className="font-display text-5xl leading-none tracking-tight border-b border-transparent transition group-hover:border-primary-foreground md:text-7xl">
@@ -103,7 +100,7 @@ export default function FloatingCompass() {
                     </a>
                   ))}
                 </nav>
-                <div className="rounded-[2rem] border border-primary-foreground/20 p-6">
+                <div className="rounded-card border border-primary-foreground/20 p-6">
                   <p className="font-heading text-2xl text-primary-foreground">{t('followTrail')}</p>
                   <p className="mt-2 font-body text-sm text-primary-foreground/60">{t('followTrailDesc')}</p>
                   <div className="mt-6 grid grid-cols-2 gap-3">
@@ -113,7 +110,8 @@ export default function FloatingCompass() {
                         href={href}
                         target="_blank"
                         rel="noreferrer"
-                        className="flex items-center gap-2 rounded-full border border-primary-foreground/20 px-4 py-3 text-sm text-primary-foreground transition hover:bg-primary-foreground hover:text-primary"
+                        className="flex items-center gap-2 rounded-full border border-primary-foreground/20 px-4 py-3 text-sm text-primary-foreground transition hover:bg-primary-foreground hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
+                        aria-label={`Follow Mohamed Kelany on ${label}`}
                       >
                         <SocialIcon label={label} /> {label}
                       </a>

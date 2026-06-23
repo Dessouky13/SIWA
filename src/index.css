@@ -12,7 +12,7 @@
     --card-foreground: 30 8% 15%;
     --popover: 31 48% 95%;
     --popover-foreground: 30 8% 15%;
-    --primary: 184 100% 34%;
+    --primary: 184 52% 30%;
     --primary-foreground: 30 43% 97%;
     --secondary: 36 52% 54%;
     --secondary-foreground: 30 8% 15%;
@@ -24,13 +24,15 @@
     --destructive-foreground: 30 43% 97%;
     --border: 30 28% 78%;
     --input: 30 28% 78%;
-    --ring: 184 100% 34%;
-    --chart-1: 184 100% 34%;
+    --ring: 184 52% 30%;
+    --chart-1: 184 52% 30%;
     --chart-2: 36 52% 54%;
     --chart-3: 25 58% 44%;
     --chart-4: 202 63% 45%;
     --chart-5: 30 8% 15%;
     --radius: 1.25rem;
+    --radius-lg: 2rem;
+    --radius-xl: 2.5rem;
     --font-heading: 'Cormorant Garamond', Georgia, serif;
     --font-body: 'Albert Sans', ui-sans-serif, system-ui, sans-serif;
     --font-display: 'Cormorant Garamond', Georgia, serif;
@@ -114,7 +116,7 @@
     content: '';
     position: absolute;
     inset: -40%;
-    background: radial-gradient(circle, hsl(var(--accent) / 0.35), transparent 45%);
+    background: radial-gradient(circle, hsl(var(--secondary) / 0.45), transparent 50%);
     transform: scale(0);
     transition: transform 500ms ease;
   }
@@ -129,7 +131,7 @@
   }
 
   .heat-haze:hover {
-    filter: saturate(1.14) contrast(1.08) blur(0.2px);
+    filter: saturate(1.14) contrast(1.08);
   }
 
   .line-clamp-2 {
@@ -144,5 +146,18 @@
       linear-gradient(120deg, transparent 0 42%, hsl(var(--primary-foreground) / 0.16) 43% 44%, transparent 45%),
       radial-gradient(circle at 20% 30%, hsl(var(--secondary) / 0.5), transparent 18%),
       radial-gradient(circle at 80% 70%, hsl(var(--primary-foreground) / 0.3), transparent 16%);
+  }
+}
+
+/* Respect users who prefer reduced motion: neutralize transforms, transitions
+   and animations (including framer-motion's inline transforms where possible). */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
   }
 }

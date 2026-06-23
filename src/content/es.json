@@ -1,0 +1,435 @@
+{
+  "brand": {
+    "heroKicker": "Siwa con Kelany",
+    "heroHeadline": "Donde el tiempo se detiene y algo dentro de ti vuelve a su lugar",
+    "heroSub": "Un viaje cuidadosamente diseñado de vida pausada hacia el desierto egipcio, para quienes buscan profundidad antes que prisa, presencia antes que distracción y sentido antes que movimiento.",
+    "heroCtaPrimary": "Iniciar la conversación",
+    "heroCtaSecondary": "Descubre los viajes",
+    "philosophyKicker": "La filosofía de Siwa",
+    "philosophyTitle": "Esto no es turismo. Es restauración.",
+    "philosophyBody": "Escondido entre las dunas doradas e infinitas del desierto egipcio existe un lugar donde el tiempo se detiene… y algo dentro de ti vuelve a su lugar. Siwa no es un destino que simplemente se visita: es un espacio en el que entras para reconectar con el silencio, la naturaleza y contigo mismo.\n\nAquí, el ritmo de la vida sigue al viento, al sol y a la quietud de los lagos salados. Cada amanecer se siente como una renovación, y cada atardecer como un regreso sereno a algo profundamente familiar.\n\nFlotarás en lagos de sal mineral de propiedades terapéuticas, te sumergirás en antiguas fuentes termales rodeadas de palmeras, cruzarás desiertos silenciosos bajo cielos infinitos y te reunirás con familias siwíes bajo una noche inundada de estrellas. Cada momento está diseñado intencionadamente para traer claridad, arraigo y expansión interior.\n\nUn regreso a la sencillez. Una reconexión con el cuerpo. Una conversación serena con la naturaleza.",
+    "philosophyClosing": "Sal de Siwa no como un visitante… sino como alguien que ha recordado algo que había olvidado.",
+    "experiencesKicker": "Experiencias esenciales",
+    "experiencesTitle": "Momentos que permanecen contigo durante años",
+    "experiencesIntro": "Cada viaje se teje con los mismos elementos vivos del oasis: aguas que te sostienen, desiertos que te aquietan y rituales que te devuelven a ti mismo.",
+    "programsKicker": "Los viajes",
+    "programsTitle": "Seis maneras de recordar algo que habías olvidado",
+    "programsIntro": "Desde una sola noche luminosa hasta un retiro de seis días hacia la quietud, cada itinerario se moldea con lentitud e intención, y se adapta a ti. Dinos de cuánto tiempo dispones, y nosotros nos encargamos del resto.",
+    "priceOnRequest": "A medida de tu grupo — precio bajo consulta",
+    "bookCta": "Reserva por WhatsApp",
+    "detailsCta": "Ver el viaje",
+    "whatsappCta": "Escríbenos por WhatsApp +201063764483",
+    "viewItinerary": "Ver el itinerario completo",
+    "includedLabel": "Qué incluye",
+    "durationLabel": "Duración",
+    "groupLabel": "Tamaño del grupo",
+    "locationLabel": "Ubicación",
+    "highlightsLabel": "Lo más destacado"
+  },
+  "experiences": [
+    {
+      "id": "salt-lake",
+      "title": "Lagos de sal y flotación",
+      "tag": "Aguas que sanan",
+      "duration": "Medio día",
+      "groupSize": "Privado o grupo reducido",
+      "location": "Lagos de sal del oasis de Siwa",
+      "desc": "Adéntrate en aguas turquesas tan ricas en minerales que te sostienen ingrávido sobre su superficie. Recuéstate, suéltate y siente cómo la sal libera cada tensión del cuerpo. Esto es más que un baño: es una liberación física, un sereno desprenderse de la energía negativa, rodeado de orillas blancas que se extienden hacia el silencio puro del desierto.",
+      "highlights": [
+        "Flotación sin esfuerzo en aguas turquesas ricas en minerales",
+        "Un baño terapéutico y liberador, único de Siwa",
+        "Orillas de sal de un blanco cegador y reflejos como espejos",
+        "Quietud profunda, lejos de las multitudes y el ruido",
+        "Luz suave y fotogénica al amanecer y en la hora dorada",
+        "Acompañamiento atento para quienes flotan por primera vez"
+      ]
+    },
+    {
+      "id": "springs",
+      "title": "Manantial de Cleopatra, fuentes termales y cueva de sal",
+      "tag": "Ritual pausado",
+      "duration": "Medio día",
+      "groupSize": "Privado o grupo reducido",
+      "location": "Manantial de Cleopatra y manantiales del oasis",
+      "desc": "Sumérgete en aguas naturales y cálidas entre palmeras cargadas de frutos, donde la leyenda dice que la realeza se bañó alguna vez. Después, déjate llevar entre antiguas fuentes termales y una cueva de sal a la luz de las velas para una sesión de relajación profunda: calor, aire mineral y luz suave que aflojan todo lo que el viaje ha cargado. Un ritual de calidez, paciencia y serena renovación.",
+      "highlights": [
+        "Aguas naturales y cálidas del legendario Manantial de Cleopatra",
+        "Antiguas fuentes termales enmarcadas por palmeras mecidas por el viento",
+        "Sesión de relajación profunda en una cueva de sal a la luz de las velas",
+        "Aire rico en minerales, al que se atribuye un efecto calmante y restaurador",
+        "Un ritmo pausado y contemplativo",
+        "Un entorno de oasis verde y canto de pájaros"
+      ]
+    },
+    {
+      "id": "safari",
+      "title": "Safari 4x4 y sandboard en el Gran Mar de Arena",
+      "tag": "Quietud salvaje",
+      "duration": "Día completo",
+      "groupSize": "4x4 privado o pequeño convoy",
+      "location": "Gran Mar de Arena y reserva natural de Siwa",
+      "desc": "Adéntrate en las dunas esculpidas por el viento del Gran Mar de Arena, donde las historias nacen en el corazón de la arena. Corona crestas doradas en 4x4, deslízate por suaves laderas sobre una tabla y luego enmudece mientras el desierto se vuelve de un oro intenso al atardecer. Al caer la noche, reúnete junto a la hoguera para un festín beduino y té de menta bajo un cielo perfectamente despejado e inundado de estrellas.",
+      "highlights": [
+        "Emocionante travesía en 4x4 por las dunas del Gran Mar de Arena",
+        "Sandboard por suaves laderas doradas",
+        "Almuerzo beduino del desierto cocinado al carbón",
+        "Té compartido con anfitriones beduinos locales",
+        "El majestuoso atardecer del desierto sobre dunas infinitas",
+        "Cena junto a la hoguera y té de menta siwí bajo las estrellas",
+        "Contemplación de las estrellas en una oscuridad absoluta e intacta"
+      ]
+    },
+    {
+      "id": "temple",
+      "title": "Templo del Oráculo e historia viva",
+      "tag": "Ecos antiguos",
+      "duration": "Medio día",
+      "groupSize": "Privado o grupo reducido",
+      "location": "Templo de Amón y Montaña de los Muertos",
+      "desc": "Detente donde Alejandro Magno buscó respuestas en el silencio del desierto, en el Templo del Oráculo de Amón. Desde lo alto se despliega un panorama inmenso: un mar verde de palmerales y olivares que disputa la arena hasta el horizonte. Cerca, las tumbas faraónicas y griegas talladas en la Montaña de los Muertos guardan la historia luminosa y estratificada del oasis.",
+      "highlights": [
+        "El legendario Templo del Oráculo de Amón",
+        "Caminar sobre las huellas de Alejandro Magno",
+        "Panorama inmenso sobre el oasis verde y los lagos relucientes",
+        "Tumbas faraónicas y griegas de la Montaña de los Muertos",
+        "Relatos de antiguos peregrinos y buscadores",
+        "Luz dorada sobre palmerales y olivares"
+      ]
+    },
+    {
+      "id": "shali",
+      "title": "Fortaleza de Shali y casco antiguo",
+      "tag": "Patrimonio y luz",
+      "duration": "Medio día",
+      "groupSize": "Privado o grupo reducido",
+      "location": "Fortaleza de Shali y Museo Siwí",
+      "desc": "Recorre los antiguos callejones de Shali, el viejo pueblo de adobe construido con kershef, tierra saturada de sal que brilla con tonos ámbar bajo el sol de la tarde. Conoce los ritmos de la vida siwí en el museo local, recorre el viejo mercado en busca de dátiles, aceitunas y artesanías, y luego contempla el atardecer desde lo alto de la fortaleza, mientras todo el oasis se suaviza hacia la noche.",
+      "highlights": [
+        "Recorrer los antiguos callejones de kershef de Shali",
+        "La historia de la arquitectura de sal y barro, que resplandece al anochecer",
+        "Atardecer desde lo alto de la vieja fortaleza",
+        "Museo Siwí: hogares, costumbres, vestimenta y vida cotidiana",
+        "Viejo mercado de dátiles, aceitunas y artesanía siwí",
+        "Cena opcional a la luz de las velas en la azotea de Shali"
+      ]
+    },
+    {
+      "id": "white-desert",
+      "title": "Desierto Blanco y acampada nocturna",
+      "tag": "Noches de otro mundo",
+      "duration": "Varios días",
+      "groupSize": "4x4 privado o grupo reducido",
+      "location": "Bahariya, Desierto Negro y Desierto Blanco",
+      "desc": "Cruza hacia un paisaje que parece de otro planeta: formaciones de roca blanca como la tiza, esculpidas por el viento en forma de setas, torres y dunas, esparcidas sobre un mar silencioso de arena. Atraviesa el Desierto Negro, la Montaña de Cristal y el Valle de Agabat en 4x4, y luego acampa mientras el cielo se incendia. Cena junto al fuego, té y una noche bajo uno de los cielos más despejados de la Tierra.",
+      "highlights": [
+        "Surrealistas formaciones de roca blanca del Desierto Blanco",
+        "Desierto Negro, Montaña de Cristal y Valle de Agabat",
+        "La Roca Seta y esculturas talladas por el viento",
+        "Atardecer y amanecer sobre el silencio del desierto",
+        "Cena tradicional beduina junto a la hoguera",
+        "Noche de acampada bajo un cielo cuajado de estrellas",
+        "Manantial frío de azufre y valles ocultos del desierto"
+      ]
+    },
+    {
+      "id": "sunset-island",
+      "title": "Isla del atardecer y ritual del té",
+      "tag": "Regreso sereno",
+      "duration": "Tarde",
+      "groupSize": "Privado o grupo reducido",
+      "location": "Islas de los lagos de Siwa",
+      "desc": "Navega sobre aguas serenas hasta una de las encantadoras islas de Siwa y siéntate en silencio mientras el sol se hunde en el lago. El ritual del té de menta se sirve con lentitud, el aire refresca y el día suelta su agarre. Este es el regreso sereno: el momento en que el oasis no te pide nada más que estar presente y recordar.",
+      "highlights": [
+        "Navegación al atardecer hacia una apacible isla de Siwa",
+        "Sentarse en quietud mientras el sol se funde en el lago",
+        "El pausado y reconfortante ritual del té de menta siwí",
+        "Aguas en calma como un espejo y suaves colores del anochecer",
+        "Canto de pájaros, palmeras y silencio absoluto",
+        "Un momento intencionado de presencia y reflexión"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "siwa-1n",
+      "name": "Descubre la magia de Siwa",
+      "subtitle": "1 noche / 2 días — un primer sabor del oasis que perdura",
+      "durationLabel": "1 noche / 2 días",
+      "badge": "Emblemático",
+      "summary": "Un traslado nocturno desde El Cairo en coche privado o autocar, y luego dos días intencionados que reúnen la esencia de Siwa —su templo, sus manantiales, sus dunas y su sal— en un primer encuentro luminoso.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Día 1 — Descubriendo la magia de Siwa",
+          "items": [
+            "Traslado nocturno desde El Cairo en coche privado o autocar (a tu elección)",
+            "Llegada al oasis de Siwa, registro en el hotel y descanso tras el viaje",
+            "Templo del Oráculo de Amón, donde Alejandro Magno buscó respuestas",
+            "Panorama inmenso sobre el oasis, los lagos relucientes y los palmerales y olivares",
+            "Manantial de Cleopatra: aguas naturales y cálidas entre las palmeras",
+            "Safari en 4x4 por la reserva natural de Siwa, dunas y sandboard con paradas para fotos",
+            "Té beduino compartido con anfitriones locales",
+            "Atardecer en el desierto y cena beduina bajo el cielo abierto",
+            "Contemplación de las estrellas y regreso al hotel"
+          ]
+        },
+        {
+          "title": "Día 2 — Entre la sal y la historia",
+          "items": [
+            "Flotación sin esfuerzo en los lagos de sal turquesa, ricos en minerales",
+            "Fuentes termales naturales",
+            "Sesión de relajación profunda en el interior de la cueva de sal",
+            "Museo Siwí: vida local, hogares, costumbres y vestimenta",
+            "Fortaleza de Shali y los antiguos callejones de adobe",
+            "Atardecer en una de las hermosas islas de Siwa",
+            "Regreso a El Cairo por la tarde"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siwa-2n",
+      "name": "Siwa, 2 noches / 3 días",
+      "subtitle": "2 noches / 3 días — espacio para respirar, dejarse llevar y llegar",
+      "durationLabel": "2 noches / 3 días",
+      "badge": "El más querido",
+      "summary": "Un traslado matinal o nocturno desde El Cairo y un itinerario moldeado en torno a ti: templo y manantial, un día completo en el Gran Mar de Arena y mañanas pausadas en las islas, todo desplegándose al ritmo del oasis.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Día 1 — Llegada y primera luz",
+          "items": [
+            "Traslado desde El Cairo, por la mañana o por la tarde, en coche o autocar",
+            "Llegada, registro en el hotel y descanso",
+            "Templo del Oráculo de Amón",
+            "Manantial de Cleopatra",
+            "Una hermosa isla de Siwa y atardecer en una naturaleza deslumbrante",
+            "Cena a la luz de las velas en un restaurante y regreso al hotel"
+          ]
+        },
+        {
+          "title": "Día 2 — Sal, manantiales y el Gran Safari",
+          "items": [
+            "Flotación en los lagos de sal",
+            "Fuentes termales naturales y sesión de relajación en la cueva de sal",
+            "Safari en 4x4 por el desierto con un almuerzo siwí especial cocinado en el corazón de la arena",
+            "Reserva natural de Siwa: dunas, campos de grava y montañas, con paradas para fotos",
+            "Té beduino con los lugareños y sandboard",
+            "Atardecer en el desierto y cena beduina bajo el cielo abierto",
+            "Contemplación de las estrellas y regreso al hotel"
+          ]
+        },
+        {
+          "title": "Día 3 — Desayuno en la isla y la vieja Shali",
+          "items": [
+            "Desayuno en una de las hermosas islas de Siwa",
+            "Fortaleza de Shali y paseo por los antiguos callejones",
+            "Salida a las 22:30 de regreso a El Cairo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siwa-4n",
+      "name": "Vive la leyenda",
+      "subtitle": "4 días / 3 noches — para vivir la leyenda, no solo visitarla",
+      "durationLabel": "4 días / 3 noches",
+      "badge": "Viaje épico",
+      "summary": "Cuatro días pausados que van desde las huellas de Alejandro hasta un día completo en el Gran Mar de Arena, desde aguas blancas que sanan hasta una cena a la luz de las velas en la azotea de Shali, y de vuelta a casa con un nuevo corazón.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Día 1 — Cruzando hacia la tierra de los secretos y el primer atardecer",
+          "items": [
+            "Llegada y descanso, respirando el aire puro del oasis de olivos y palmeras",
+            "Templo del Oráculo de Amón, sobre las huellas de Alejandro Magno, con un panorama completo de Siwa como un mar verde que disputa la arena",
+            "Manantial de Cleopatra: aguas naturales y cálidas entre palmeras cargadas de frutos",
+            "Navegación al atardecer hacia una de las encantadoras islas de Siwa; siéntate en silencio mientras el sol se hunde en el lago",
+            "Cálida cena siwí en el aire sereno del oasis y regreso al hotel"
+          ]
+        },
+        {
+          "title": "Día 2 — El Gran Safari, donde las historias nacen en la arena",
+          "items": [
+            "Desayuno tradicional en plena naturaleza virgen, en una isla de Siwa",
+            "10:30 — los vehículos 4x4 parten hacia el Gran Mar de Arena para un día completo",
+            "Una emoción auténtica al cruzar las dunas doradas, esculpidas por el viento",
+            "Un almuerzo beduino muy especial, cocinado al carbón a la manera auténtica",
+            "Sandboard sobre la arena suave",
+            "El majestuoso atardecer del desierto, cuando las arenas se vuelven de un oro intenso",
+            "Reunión junto a la hoguera (raqya) con una abundante cena beduina y té de menta siwí bajo un cielo cuajado de estrellas, y regreso al hotel"
+          ]
+        },
+        {
+          "title": "Día 3 — Sanación blanca, el aroma de la historia y la luminosa Shali",
+          "items": [
+            "Lagos de sal: flota sin esfuerzo y libera toda energía negativa",
+            "Fuentes termales y relajación profunda en la cueva de sal bajo la suave luz de las velas",
+            "Montaña de los Muertos: tumbas faraónicas y griegas talladas en la montaña",
+            "Fortaleza de Shali y la historia del kershef, el adobe saturado de sal",
+            "Atardecer contemplado desde lo alto de la fortaleza",
+            "Tiempo libre en el viejo mercado para dátiles, aceitunas y artesanías siwíes",
+            "Una excepcional cena a la luz de las velas en la azotea de Shali, y regreso al hotel"
+          ]
+        },
+        {
+          "title": "Día 4 — Despedida, regresando con un nuevo corazón",
+          "items": [
+            "Desayuno en el hotel y una última mirada al oasis",
+            "Salida del hotel y partida, llevando contigo una calma siwí que permanece durante años"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siwa-5n",
+      "name": "Retiro de naturaleza, relajación y meditación",
+      "subtitle": "5 noches / 6 días — para los amantes de la naturaleza, el silencio y la vida sencilla",
+      "durationLabel": "5 noches / 6 días",
+      "badge": "Retiro",
+      "summary": "La inmersión más profunda: seis días de lagos de sal, manantiales naturales, desierto abierto y auténtica cultura siwí, con espacio entretejido para meditar, restaurarse y, sencillamente, ser.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Día 1 — Llegada y descanso",
+          "items": [
+            "Llegada y registro en el hotel, y luego descanso",
+            "Una fuente termal natural de aguas cálidas y reconfortantes",
+            "Tiempo para relajarse y meditar en la calma del oasis",
+            "Una cena saludable y noche en el hotel"
+          ]
+        },
+        {
+          "title": "Día 2 — Lagos de sal y Fortaleza de Shali",
+          "items": [
+            "Desayuno tradicional siwí en una hermosa isla natural",
+            "Flotación natural en los lagos de sal",
+            "Una fuente termal para relajarse",
+            "Fortaleza de Shali y el casco antiguo; recorrer los callejones históricos y conocer la historia y la cultura del oasis",
+            "Atardecer desde lo alto de la fortaleza",
+            "Una cena especial en un ambiente de patrimonio y a la luz de las velas, y regreso al hotel"
+          ]
+        },
+        {
+          "title": "Día 3 — Safari por el Gran Mar de Arena",
+          "items": [
+            "Safari por el desierto de día completo a través de dunas doradas y paisajes encantadores",
+            "Meditación y silencio en la naturaleza del desierto",
+            "Un almuerzo siwí saludable y especial",
+            "Atardecer en el corazón del desierto",
+            "Cena beduina bajo el cielo abierto y contemplación de las estrellas en cielos nocturnos despejados, y regreso al hotel"
+          ]
+        },
+        {
+          "title": "Día 4 — Día de relajación y naturaleza",
+          "items": [
+            "Lagos de sal",
+            "Una sesión de cuidado con aceites naturales",
+            "Fuentes termales para relajarse y renovarse",
+            "Regreso al hotel y descanso",
+            "Un sereno paseo en barca hacia una de las islas naturales de Siwa",
+            "Atardecer en una naturaleza deslumbrante, y regreso al hotel"
+          ]
+        },
+        {
+          "title": "Día 5 — Manantial de Cleopatra y Templo de Amón",
+          "items": [
+            "Manantial de Cleopatra y su entorno natural",
+            "Sesión de relajación en la cueva de sal",
+            "Tiempo libre",
+            "Templo del Oráculo de Amón",
+            "Una montaña natural para una vista panorámica del oasis",
+            "Atardecer, cena y regreso al hotel"
+          ]
+        },
+        {
+          "title": "Día 6 — Partida",
+          "items": [
+            "Desayuno y salida del hotel",
+            "Regreso a El Cairo con recuerdos inolvidables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bahariya-1n",
+      "name": "Oasis de Bahariya y Desierto Blanco",
+      "subtitle": "1 noche / 2 días — hacia el blanco de otro mundo",
+      "durationLabel": "1 noche / 2 días",
+      "badge": "Emblemático",
+      "summary": "Una escapada ágil desde El Cairo hacia los paisajes surrealistas de Bahariya y el Desierto Blanco: picos negros, montañas de cristal y esculturas blancas como la tiza, con una noche de acampada bajo un océano de estrellas.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Día 1 — A través del desierto hacia el blanco",
+          "items": [
+            "07:00 salida de El Cairo; 11:00 llegada al oasis de Bahariya; almuerzo",
+            "Comienzo del safari en 4x4 por el desierto: Desierto Negro y aldea beduina",
+            "Montaña de Cristal, Valle de Agabat y Roca Seta",
+            "Formaciones rocosas del Desierto Blanco antiguo y del Desierto Blanco nuevo",
+            "Atardecer sobre el Desierto Blanco y llegada al campamento",
+            "Cena tradicional beduina (pollo a la parrilla), té y reunión junto a la hoguera",
+            "Contemplación de las estrellas y noche en tienda (una tienda por cada dos personas)"
+          ]
+        },
+        {
+          "title": "Día 2 — Amanecer y regreso",
+          "items": [
+            "Amanecer en el desierto",
+            "Desayuno en el campamento",
+            "Exploración matinal de más formaciones rocosas y paisajes únicos",
+            "Regreso al oasis de Bahariya; 10:00 salida hacia El Cairo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-desert-3n",
+      "name": "Expedición al Desierto Blanco",
+      "subtitle": "3 días / 2 noches — en lo profundo del silencio de la arena",
+      "durationLabel": "3 días / 2 noches",
+      "badge": "Viaje épico",
+      "summary": "Una expedición de tres días con todo el apoyo a través del Desierto Negro y el Desierto Blanco: manantiales de azufre, montañas de cristal, valles ocultos y una noche de acampada en el corazón del nuevo Desierto Blanco, con todas las comidas y el equipo a cargo.",
+      "inclusions": [
+        "Vehículo 4x4 Jeep privado",
+        "Desayuno, almuerzo y cena: todas las comidas durante el recorrido",
+        "Agua mineral, frutas, bebidas calientes y refrescos",
+        "Equipo de acampada completo: tienda, colchonetas, mantas y sacos de dormir",
+        "Guía de habla inglesa",
+        "Una noche de alojamiento en hotel en el oasis de Bahariya",
+        "Una noche de acampada en el Desierto Blanco"
+      ],
+      "days": [
+        {
+          "title": "Día 1 — Hacia el Desierto Negro",
+          "items": [
+            "Partida hacia el desierto",
+            "Desierto Negro y Manantial Frío de Azufre",
+            "Aldea beduina y Montaña de Cristal",
+            "Regreso al oasis de Bahariya; cena",
+            "Noche en el hotel del oasis de Bahariya"
+          ]
+        },
+        {
+          "title": "Día 2 — Safari de día completo y acampada",
+          "items": [
+            "Safari por el desierto de día completo: zona de El Agabat y sandboard",
+            "Cueva de la Luna, Valle de la Palmera y campamentos del valle",
+            "Formaciones del nuevo Desierto Blanco y del antiguo Desierto Blanco",
+            "Cena beduina",
+            "Noche de acampada en el nuevo Desierto Blanco bajo las estrellas y la apacible atmósfera del desierto"
+          ]
+        },
+        {
+          "title": "Día 3 — Amanecer y despedida",
+          "items": [
+            "Amanecer en el Desierto Blanco",
+            "Desayuno",
+            "Explorar más formaciones del Desierto Blanco",
+            "Regreso al oasis de Bahariya y partida"
+          ]
+        }
+      ]
+    }
+  ]
+}

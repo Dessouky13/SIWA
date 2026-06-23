@@ -1,0 +1,435 @@
+{
+  "brand": {
+    "heroKicker": "Siwa with Kelany",
+    "heroHeadline": "Where time slows down, and something within you begins to realign",
+    "heroSub": "A curated slow-living journey into the Egyptian desert — for those seeking depth over speed, presence over distraction, and meaning over movement.",
+    "heroCtaPrimary": "Begin the conversation",
+    "heroCtaSecondary": "Explore the journeys",
+    "philosophyKicker": "The Siwa Philosophy",
+    "philosophyTitle": "This is not tourism. This is restoration.",
+    "philosophyBody": "Hidden between the endless golden dunes of the Egyptian desert lies a place where time slows down… and something within you begins to realign. Siwa is not a destination you simply visit — it is a space you enter to reconnect with silence, nature, and yourself.\n\nHere, the rhythm of life follows the wind, the sun, and the stillness of the salt lakes. Every sunrise feels like a renewal, and every sunset feels like a quiet return to something deeply familiar.\n\nYou will float in mineral salt lakes with therapeutic properties, soak in ancient hot springs surrounded by palm trees, cross silent deserts under infinite skies, and gather with Siwan families beneath a star-flooded night. Each moment is intentionally designed to bring clarity, grounding, and inner expansion.\n\nA return to simplicity. A reconnection with the body. A quiet conversation with nature.",
+    "philosophyClosing": "Leave Siwa not as a visitor… but as someone who has remembered something they had forgotten.",
+    "experiencesKicker": "Core Experiences",
+    "experiencesTitle": "Moments that stay with you for years",
+    "experiencesIntro": "Every journey is woven from the same living elements of the oasis — water that holds you, deserts that quiet you, and rituals that bring you home to yourself.",
+    "programsKicker": "The Journeys",
+    "programsTitle": "Six ways to remember something you had forgotten",
+    "programsIntro": "From a single luminous night to a six-day retreat into stillness, each itinerary is shaped slowly and intentionally — and tailored to you. Tell us how long you have, and we will hold the rest.",
+    "priceOnRequest": "Tailored to your group — price on request",
+    "bookCta": "Reserve via WhatsApp",
+    "detailsCta": "View the journey",
+    "whatsappCta": "Message us on WhatsApp +201063764483",
+    "viewItinerary": "See the full itinerary",
+    "includedLabel": "What's included",
+    "durationLabel": "Duration",
+    "groupLabel": "Group size",
+    "locationLabel": "Location",
+    "highlightsLabel": "Highlights"
+  },
+  "experiences": [
+    {
+      "id": "salt-lake",
+      "title": "Salt Lakes & Floating",
+      "tag": "Healing waters",
+      "duration": "Half day",
+      "groupSize": "Private or small group",
+      "location": "Siwa Oasis salt lakes",
+      "desc": "Step into turquoise water so rich in minerals it cradles you weightless on its surface. Lie back, let go, and feel the salt draw every knot of tension from the body. This is more than a swim — it is a physical release, a quiet shedding of negative energy, surrounded by white shores that stretch into pure desert silence.",
+      "highlights": [
+        "Effortless floating in mineral-rich turquoise water",
+        "A therapeutic, body-releasing soak unique to Siwa",
+        "Blinding-white salt shores and mirror-still reflections",
+        "Deep stillness far from crowds and noise",
+        "Soft, photogenic light at dawn and golden hour",
+        "Gentle guidance for first-time floaters"
+      ]
+    },
+    {
+      "id": "springs",
+      "title": "Cleopatra's Spring, Hot Springs & Salt Cave",
+      "tag": "Slow ritual",
+      "duration": "Half day",
+      "groupSize": "Private or small group",
+      "location": "Cleopatra's Spring & oasis springs",
+      "desc": "Lower yourself into warm natural water among fruiting palms, where legend says royalty once bathed. Then drift between ancient hot springs and a candlelit salt cave for a session of deep relaxation — warmth, mineral air, and soft light loosening everything the journey has carried. A ritual of warmth, patience, and quiet renewal.",
+      "highlights": [
+        "Warm natural waters of the storied Cleopatra's Spring",
+        "Ancient hot springs framed by swaying palms",
+        "Candlelit salt-cave deep-relaxation session",
+        "Mineral-rich air believed to soothe and restore",
+        "An unhurried, contemplative pace",
+        "Surroundings of green oasis and birdsong"
+      ]
+    },
+    {
+      "id": "safari",
+      "title": "Great Sand Sea 4x4 Safari & Sandboarding",
+      "tag": "Wild stillness",
+      "duration": "Full day",
+      "groupSize": "Private 4x4 or small convoy",
+      "location": "Great Sand Sea & Siwa nature reserve",
+      "desc": "Ride deep into the wind-sculpted dunes of the Great Sand Sea, where stories are born in the heart of the sand. Crest golden ridges by 4x4, glide down soft slopes on a board, then fall silent as the desert turns deep gold at sunset. As night arrives, gather at the campfire for a Bedouin feast and mint tea beneath a perfectly clear, star-flooded sky.",
+      "highlights": [
+        "Thrilling 4x4 crossing of the Great Sand Sea dunes",
+        "Sandboarding down soft golden slopes",
+        "Bedouin charcoal-cooked desert lunch",
+        "Tea shared with local Bedouin hosts",
+        "The majestic desert sunset over endless dunes",
+        "Campfire dinner and Siwan mint tea under the stars",
+        "Stargazing in absolute, untouched darkness"
+      ]
+    },
+    {
+      "id": "temple",
+      "title": "Temple of the Oracle & Living History",
+      "tag": "Ancient echoes",
+      "duration": "Half day",
+      "groupSize": "Private or small group",
+      "location": "Temple of Amun & Mountain of the Dead",
+      "desc": "Stand where Alexander the Great once sought answers amid the desert's silence, at the Temple of the Oracle of Amun. From above, a sweeping panorama unfolds — a green sea of palm and olive groves fighting the sand to the horizon. Nearby, Pharaonic and Greek tombs carved into the Mountain of the Dead carry the oasis's layered, luminous history.",
+      "highlights": [
+        "The legendary Temple of the Oracle of Amun",
+        "Walking in the footsteps of Alexander the Great",
+        "Sweeping panorama over the green oasis and shimmering lakes",
+        "Pharaonic and Greek tombs of the Mountain of the Dead",
+        "Stories of ancient pilgrims and seekers",
+        "Golden light over palm and olive groves"
+      ]
+    },
+    {
+      "id": "shali",
+      "title": "Shali Fortress & Old Town",
+      "tag": "Heritage & light",
+      "duration": "Half day",
+      "groupSize": "Private or small group",
+      "location": "Shali Fortress & Siwan Museum",
+      "desc": "Wander the ancient alleys of Shali, the old mud-brick town built from kershef — salt-saturated earth that glows amber in the late sun. Learn the rhythms of Siwan life at the local museum, browse the old market for dates, olives and handicrafts, then watch the sunset from atop the fortress as the whole oasis softens into evening.",
+      "highlights": [
+        "Walking the ancient kershef alleys of Shali",
+        "The story of salt-mud architecture, glowing at dusk",
+        "Sunset from the top of the old fortress",
+        "Siwan Museum — homes, customs, dress and daily life",
+        "Old market for dates, olives and Siwan crafts",
+        "Optional candlelit dinner on the Shali rooftop"
+      ]
+    },
+    {
+      "id": "white-desert",
+      "title": "White Desert & Night Camping",
+      "tag": "Otherworldly nights",
+      "duration": "Multi-day",
+      "groupSize": "Private 4x4 or small group",
+      "location": "Bahariya, Black Desert & White Desert",
+      "desc": "Cross into a landscape that feels like another planet — chalk-white rock formations sculpted by wind into mushrooms, towers and dunes, scattered across a silent sea of sand. Pass the Black Desert, Crystal Mountain and Agabat Valley by 4x4, then make camp as the sky catches fire. Dinner by the fire, tea, and a night spent beneath one of the clearest skies on Earth.",
+      "highlights": [
+        "Surreal chalk-white rock formations of the White Desert",
+        "Black Desert, Crystal Mountain and Agabat Valley",
+        "Mushroom Rock and wind-carved sculptures",
+        "Sunset and sunrise over the desert silence",
+        "Traditional Bedouin campfire dinner",
+        "Overnight camping beneath a sky thick with stars",
+        "Cold sulfur spring and hidden desert valleys"
+      ]
+    },
+    {
+      "id": "sunset-island",
+      "title": "Sunset Island & Tea Ritual",
+      "tag": "Quiet return",
+      "duration": "Evening",
+      "groupSize": "Private or small group",
+      "location": "Siwa's lake islands",
+      "desc": "Sail across still water to one of Siwa's enchanting islands and sit in silence as the sun sinks into the lake. The mint-tea ritual is poured slowly, the air cools, and the day releases its hold. This is the quiet return — the moment the oasis asks nothing of you but to be present, and to remember.",
+      "highlights": [
+        "Sunset sail to a serene Siwa island",
+        "Sitting in stillness as the sun melts into the lake",
+        "The slow, warming Siwan mint-tea ritual",
+        "Mirror-calm water and soft evening colour",
+        "Birdsong, palms and absolute quiet",
+        "An intentional moment of presence and reflection"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "siwa-1n",
+      "name": "Discover the Magic of Siwa",
+      "subtitle": "1 Night / 2 Days — a first taste of the oasis that lingers",
+      "durationLabel": "1 Night / 2 Days",
+      "badge": "Signature",
+      "summary": "An evening transfer from Cairo by private car or coach, then two intentional days that gather Siwa's essence — its temple, its springs, its dunes and its salt — into one luminous first encounter.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Day 1 — Discovering Siwa's magic",
+          "items": [
+            "Evening transfer from Cairo by private car or coach (your choice)",
+            "Arrival at Siwa Oasis, hotel check-in and rest after the journey",
+            "Temple of the Oracle of Amun, where Alexander the Great once sought answers",
+            "Sweeping panorama over the oasis, shimmering lakes and palm and olive groves",
+            "Cleopatra's Spring — warm natural water among the palms",
+            "4x4 safari into the Siwa nature reserve, dunes and sandboarding with photo stops",
+            "Bedouin tea shared with local hosts",
+            "Sunset in the desert and a Bedouin dinner under the open sky",
+            "Stargazing, then return to the hotel"
+          ]
+        },
+        {
+          "title": "Day 2 — Between salt and history",
+          "items": [
+            "Effortless floating in the turquoise, mineral-rich salt lakes",
+            "Natural hot springs",
+            "Deep-relaxation session inside the salt cave",
+            "Siwan Museum — local life, houses, customs and dress",
+            "Shali Fortress and the old mud-brick alleys",
+            "Sunset on one of Siwa's beautiful islands",
+            "Return to Cairo in the evening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siwa-2n",
+      "name": "Siwa, 2 Nights / 3 Days",
+      "subtitle": "2 Nights / 3 Days — room to breathe, drift and arrive",
+      "durationLabel": "2 Nights / 3 Days",
+      "badge": "Most loved",
+      "summary": "A morning or evening transfer from Cairo and an itinerary shaped around you — temple and spring, a full day in the Great Sand Sea, and slow island mornings, all unfolding at the pace of the oasis.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Day 1 — Arrival & first light",
+          "items": [
+            "Transfer from Cairo, morning or evening, by car or coach",
+            "Arrival, hotel check-in and rest",
+            "Temple of the Oracle of Amun",
+            "Cleopatra's Spring",
+            "A beautiful Siwa island and sunset amid stunning nature",
+            "Candlelit dinner at a restaurant, then return to the hotel"
+          ]
+        },
+        {
+          "title": "Day 2 — Salt, springs & the Great Safari",
+          "items": [
+            "Floating in the salt lakes",
+            "Natural hot springs and a salt-cave relaxation session",
+            "4x4 safari into the desert with a special Siwan lunch cooked in the heart of the sand",
+            "Siwa nature reserve — dunes, gravel fields and mountains, with photo stops",
+            "Bedouin tea with locals and sandboarding",
+            "Desert sunset and a Bedouin dinner under the open sky",
+            "Stargazing, then return to the hotel"
+          ]
+        },
+        {
+          "title": "Day 3 — Island breakfast & old Shali",
+          "items": [
+            "Breakfast on one of Siwa's beautiful islands",
+            "Shali Fortress and a wander through the old alleys",
+            "Departure at 10:30 pm back to Cairo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siwa-4n",
+      "name": "Live the Legend",
+      "subtitle": "4 Days / 3 Nights — to live the legend, not just visit it",
+      "durationLabel": "4 Days / 3 Nights",
+      "badge": "Epic journey",
+      "summary": "Four unhurried days that move from the footsteps of Alexander to a full day in the Great Sand Sea, from white healing waters to a candlelit dinner on the Shali rooftop — and home again with a new heart.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Day 1 — Crossing into the land of secrets & the first sunset",
+          "items": [
+            "Arrival and relaxation, breathing the pure oasis air of olive and palm",
+            "Temple of the Oracle of Amun, in the footsteps of Alexander the Great, with a full panorama of Siwa as a green sea fighting the sand",
+            "Cleopatra's Spring — warm natural water among fruiting palms",
+            "Sunset sail to one of Siwa's enchanting islands; sit in silence as the sun sinks into the lake",
+            "Warm Siwan dinner in the calm oasis air, then return to the hotel"
+          ]
+        },
+        {
+          "title": "Day 2 — The Great Safari, where stories are born in the sand",
+          "items": [
+            "Traditional breakfast amid pristine nature on a Siwa island",
+            "10:30 am — 4x4 vehicles set off into the Great Sand Sea for a full day",
+            "A real thrill crossing the golden, wind-sculpted dunes",
+            "A very special Bedouin lunch cooked on charcoal the authentic way",
+            "Sandboarding on the soft sand",
+            "The majestic desert sunset as the sands turn deep gold",
+            "Campfire gathering (raqya) with a lavish Bedouin dinner and Siwan mint tea under a star-studded sky, then return to the hotel"
+          ]
+        },
+        {
+          "title": "Day 3 — White healing, the scent of history & luminous Shali",
+          "items": [
+            "Salt lakes — float effortlessly and release every negative energy",
+            "Hot springs and deep relaxation inside the salt cave under soft candlelight",
+            "Mountain of the Dead — Pharaonic and Greek tombs carved into the mountain",
+            "Shali Fortress and the story of kershef, the salt-saturated mud brick",
+            "Sunset watched from atop the fortress",
+            "Free time in the old market for dates, olives and Siwan handicrafts",
+            "An exceptional candlelit dinner on the Shali rooftop, then return to the hotel"
+          ]
+        },
+        {
+          "title": "Day 4 — Farewell, returning with a new heart",
+          "items": [
+            "Breakfast at the hotel and one last look at the oasis",
+            "Check-out and departure, carrying a Siwan calm that stays with you for years"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siwa-5n",
+      "name": "Nature, Relaxation & Meditation Retreat",
+      "subtitle": "5 Nights / 6 Days — for lovers of nature, quiet and simple living",
+      "durationLabel": "5 Nights / 6 Days",
+      "badge": "Retreat",
+      "summary": "The deepest immersion — six days of salt lakes, natural springs, open desert and authentic Siwan culture, with space woven in to meditate, restore, and simply be.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Day 1 — Arrival & relaxation",
+          "items": [
+            "Arrival and hotel check-in, then rest",
+            "A natural hot spring with warm, soothing water",
+            "Time to relax and meditate in the calm of the oasis",
+            "A healthy dinner and overnight"
+          ]
+        },
+        {
+          "title": "Day 2 — Salt lakes & Shali Fortress",
+          "items": [
+            "Traditional Siwan breakfast on a beautiful natural island",
+            "Natural floating in the salt lakes",
+            "A hot spring for relaxation",
+            "Shali Fortress and the old town; walking the historic alleys and learning the oasis's history and culture",
+            "Sunset from atop the fortress",
+            "A special dinner amid heritage ambience and candlelight, then return to the hotel"
+          ]
+        },
+        {
+          "title": "Day 3 — Great Sand Sea safari",
+          "items": [
+            "Full-day desert safari through golden dunes and enchanting landscapes",
+            "Meditation and quiet in the desert nature",
+            "A healthy, special Siwan lunch",
+            "Sunset in the heart of the desert",
+            "Bedouin dinner under the open sky and stargazing in clear night skies, then return to the hotel"
+          ]
+        },
+        {
+          "title": "Day 4 — Relaxation & nature day",
+          "items": [
+            "Salt lakes",
+            "A natural-oil care session",
+            "Hot springs to relax and renew",
+            "Return to the hotel and rest",
+            "A calm boat trip to one of Siwa's natural islands",
+            "Sunset amid stunning nature, then return to the hotel"
+          ]
+        },
+        {
+          "title": "Day 5 — Cleopatra's Spring & Temple of Amun",
+          "items": [
+            "Cleopatra's Spring and its natural surroundings",
+            "Salt-cave relaxation session",
+            "Free time",
+            "Temple of the Oracle of Amun",
+            "A natural mountain for a panoramic view over the oasis",
+            "Sunset, dinner and return to the hotel"
+          ]
+        },
+        {
+          "title": "Day 6 — Departure",
+          "items": [
+            "Breakfast and hotel check-out",
+            "Return to Cairo with unforgettable memories"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bahariya-1n",
+      "name": "Bahariya Oasis & White Desert",
+      "subtitle": "1 Night / 2 Days — into the otherworldly white",
+      "durationLabel": "1 Night / 2 Days",
+      "badge": "Signature",
+      "summary": "A swift escape from Cairo into the surreal landscapes of Bahariya and the White Desert — black peaks, crystal mountains and chalk-white sculptures, with a night camped beneath an ocean of stars.",
+      "inclusions": [],
+      "days": [
+        {
+          "title": "Day 1 — Across the desert to the white",
+          "items": [
+            "07:00 depart Cairo; 11:00 arrive at Bahariya Oasis; lunch",
+            "Begin the 4x4 desert safari: Black Desert and Bedouin village",
+            "Crystal Mountain, Agabat Valley and Mushroom Rock",
+            "Old White Desert and New White Desert rock formations",
+            "Sunset over the White Desert, then arrive at the camping site",
+            "Traditional Bedouin dinner (grilled chicken), tea and a campfire gathering",
+            "Stargazing and overnight in a tent (one tent for every two people)"
+          ]
+        },
+        {
+          "title": "Day 2 — Sunrise & return",
+          "items": [
+            "Sunrise in the desert",
+            "Breakfast at the camp",
+            "Morning exploration of more rock formations and unique landscapes",
+            "Return to Bahariya Oasis; 10:00 depart towards Cairo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-desert-3n",
+      "name": "White Desert Expedition",
+      "subtitle": "3 Days / 2 Nights — deep into the silence of the sand",
+      "durationLabel": "3 Days / 2 Nights",
+      "badge": "Epic journey",
+      "summary": "A fully supported three-day expedition through the Black and White Deserts — sulfur springs, crystal mountains, hidden valleys and a night camped in the heart of the New White Desert, all meals and equipment cared for.",
+      "inclusions": [
+        "Private 4x4 Jeep vehicle",
+        "Breakfast, lunch and dinner — all meals during the tour",
+        "Mineral water, fruits, hot and soft drinks",
+        "Full camping equipment: tent, mattresses, blankets and sleeping bags",
+        "English-speaking guide",
+        "One night hotel accommodation in Bahariya Oasis",
+        "One night camping in the White Desert"
+      ],
+      "days": [
+        {
+          "title": "Day 1 — Into the Black Desert",
+          "items": [
+            "Departure to the desert",
+            "Black Desert and Cold Sulfur Spring",
+            "Bedouin village and Crystal Mountain",
+            "Return to Bahariya Oasis; dinner",
+            "Overnight at the hotel in Bahariya Oasis"
+          ]
+        },
+        {
+          "title": "Day 2 — Full-day safari & camping",
+          "items": [
+            "Full-day desert safari: El Agabat area and sandboarding",
+            "Moon Cave, Valley of the Palm and Valley Camps",
+            "New White Desert and Old White Desert formations",
+            "Bedouin dinner",
+            "Overnight camping in the New White Desert beneath the stars and the peaceful desert atmosphere"
+          ]
+        },
+        {
+          "title": "Day 3 — Sunrise & farewell",
+          "items": [
+            "Sunrise in the White Desert",
+            "Breakfast",
+            "Explore more of the White Desert formations",
+            "Return to Bahariya Oasis and departure"
+          ]
+        }
+      ]
+    }
+  ]
+}

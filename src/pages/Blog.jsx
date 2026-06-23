@@ -4,9 +4,12 @@ import { ArrowLeft, Clock, MapPin, BookOpen, MessageCircle, Search } from 'lucid
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/lib/LanguageContext';
 import { waLink } from '@/lib/whatsapp';
-import FloatingCompass from '@/components/landing/FloatingCompass';
+import TopBar from '@/components/landing/TopBar';
 import WhatsAppFAB from '@/components/landing/WhatsAppFAB';
 import LivingFooter from '@/components/landing/LivingFooter';
+import manifest from '../../public/photos/manifest.json';
+
+const blogImages = manifest?.blog ?? [];
 
 const POSTS = [
   {
@@ -17,7 +20,7 @@ const POSTS = [
     quoteKey: 'blog1Quote',
     excerptKey: 'blog1Excerpt',
     bodyKey: 'blog1Body',
-    image: 'https://images.unsplash.com/photo-1539768942893-daf53e448371?w=900&q=80',
+    image: blogImages[0],
     tag: 'Travel Guide',
     tagKey: 'blogTagGuide',
     color: 'from-amber-900/60',
@@ -30,7 +33,7 @@ const POSTS = [
     quoteKey: 'blog2Quote',
     excerptKey: 'blog2Excerpt',
     bodyKey: 'blog2Body',
-    image: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?w=900&q=80',
+    image: blogImages[1],
     tag: 'Story',
     tagKey: 'blogTagStory',
     color: 'from-teal-900/60',
@@ -43,7 +46,7 @@ const POSTS = [
     quoteKey: 'blog3Quote',
     excerptKey: 'blog3Excerpt',
     bodyKey: 'blog3Body',
-    image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=900&q=80',
+    image: blogImages[2],
     tag: 'Itinerary',
     tagKey: 'blogTagItinerary',
     color: 'from-orange-900/60',
@@ -56,7 +59,7 @@ const POSTS = [
     quoteKey: 'blog4Quote',
     excerptKey: 'blog4Excerpt',
     bodyKey: 'blog4Body',
-    image: 'https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=900&q=80',
+    image: blogImages[3],
     tag: 'Travel Tips',
     tagKey: 'blogTagTips',
     color: 'from-rose-900/60',
@@ -69,7 +72,7 @@ const POSTS = [
     quoteKey: 'blog5Quote',
     excerptKey: 'blog5Excerpt',
     bodyKey: 'blog5Body',
-    image: 'https://images.unsplash.com/photo-1571019613914-85f342c6a11e?w=900&q=80',
+    image: blogImages[4],
     tag: 'Story',
     tagKey: 'blogTagStory',
     color: 'from-sky-900/60',
@@ -82,7 +85,7 @@ const POSTS = [
     quoteKey: 'blog6Quote',
     excerptKey: 'blog6Excerpt',
     bodyKey: 'blog6Body',
-    image: 'https://images.unsplash.com/photo-1531761535209-180857e963b9?w=900&q=80',
+    image: blogImages[5],
     tag: 'Culture',
     tagKey: 'blogTagCulture',
     color: 'from-purple-900/60',
@@ -107,12 +110,15 @@ function PostModal({ post, onClose }) {
       className="fixed inset-0 z-50 overflow-y-auto bg-background/95 backdrop-blur-sm"
     >
       <div className="mx-auto max-w-3xl px-6 py-12">
-        <button onClick={onClose} className="mb-8 flex items-center gap-2 text-sm text-muted-foreground transition hover:text-foreground">
+        <button type="button" onClick={onClose} aria-label={t('backToBlog')} className="mb-8 flex items-center gap-2 rounded-md text-sm text-muted-foreground transition hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
           <ArrowLeft className="h-4 w-4" /> {t('backToBlog')}
         </button>
 
-        <div className="relative mb-8 h-72 overflow-hidden rounded-[2rem] md:h-96">
-          <img src={post.image} alt={t(post.titleKey)} className="h-full w-full object-cover" />
+        <div className="relative mb-8 h-72 overflow-hidden rounded-card md:h-96">
+          <picture>
+            <source srcSet={post.image?.webp} type="image/webp" />
+            <img src={post.image?.jpg} alt={t(post.titleKey)} loading="lazy" decoding="async" className="h-full w-full object-cover" />
+          </picture>
           <div className={`absolute inset-0 bg-gradient-to-t ${post.color} to-transparent`} />
           <div className="absolute bottom-6 left-6">
             <span className="rounded-full bg-background/85 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-foreground backdrop-blur">
@@ -138,7 +144,7 @@ function PostModal({ post, onClose }) {
           ))}
         </div>
 
-        <div className="mt-10 rounded-[2rem] bg-primary p-8 text-primary-foreground">
+        <div className="mt-10 rounded-card bg-primary p-8 text-primary-foreground">
           <p className="font-heading text-2xl">{t('blogCtaTitle')}</p>
           <p className="mt-2 font-body text-sm text-primary-foreground/75">{t('blogCtaDesc')}</p>
           <a
@@ -164,10 +170,13 @@ function PostCard({ post, onClick, index }) {
       viewport={{ once: true }}
       transition={{ delay: index * 0.07 }}
       onClick={onClick}
-      className="group cursor-pointer overflow-hidden rounded-[2rem] border border-border bg-card transition hover:-translate-y-2 hover:shadow-2xl"
+      className="group cursor-pointer overflow-hidden rounded-card border border-border bg-card transition hover:-translate-y-2 hover:shadow-2xl"
     >
       <div className="relative h-52 overflow-hidden">
-        <img src={post.image} alt={t(post.titleKey)} className="h-full w-full object-cover transition duration-700 group-hover:scale-105 heat-haze" />
+        <picture>
+          <source srcSet={post.image?.webp} type="image/webp" />
+          <img src={post.image?.jpg} alt={t(post.titleKey)} loading="lazy" decoding="async" className="h-full w-full object-cover transition duration-700 group-hover:scale-105 heat-haze" />
+        </picture>
         <div className={`absolute inset-0 bg-gradient-to-t ${post.color} to-transparent opacity-60`} />
         <span className="absolute left-4 top-4 rounded-full bg-background/85 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.15em] text-foreground backdrop-blur">
           {t(post.tagKey)}
@@ -199,12 +208,12 @@ export default function Blog() {
   });
 
   return (
-    <div className="min-h-screen bg-background">
-      <FloatingCompass />
+    <div className="relative min-h-screen bg-background">
+      <TopBar homeHref="/" />
       <WhatsAppFAB />
 
       {/* Header */}
-      <div className="bg-primary px-6 py-20 text-primary-foreground md:px-10">
+      <div className="bg-primary px-6 pb-20 pt-28 text-primary-foreground md:px-10">
         <div className="mx-auto max-w-7xl">
           <Link to="/" className="mb-8 inline-flex items-center gap-2 text-sm text-primary-foreground/60 transition hover:text-primary-foreground">
             <ArrowLeft className="h-4 w-4" /> {t('backToHome')}
@@ -245,7 +254,7 @@ export default function Blog() {
 
       {/* CTA Banner */}
       <section className="px-6 pb-20 md:px-10">
-        <div className="mx-auto max-w-7xl rounded-[2.5rem] bg-primary px-8 py-12 text-primary-foreground md:px-14">
+        <div className="mx-auto max-w-7xl rounded-panel bg-primary px-8 py-12 text-primary-foreground md:px-14">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
             <div>
               <p className="font-display text-3xl md:text-4xl">{t('blogBannerTitle')}</p>

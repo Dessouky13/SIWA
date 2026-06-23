@@ -34,5 +34,7 @@ dist-ssr
 .contact/
 .b44raw/
 staging/
+.shots/
 .devserver.log
+.preview*.log
 .preview-*.png

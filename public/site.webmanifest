@@ -1,0 +1,31 @@
+{
+  "name": "Siwa with Kelany | Private Siwa Oasis Tours",
+  "short_name": "Siwa with Kelany",
+  "description": "Private, luxury Siwa Oasis and White Desert tours with local guide Mohamed Kelany.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F2E8DF",
+  "theme_color": "#00A3AD",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

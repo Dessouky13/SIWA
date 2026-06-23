@@ -134,7 +134,7 @@ export default function LivingFooter() {
             <ul className="space-y-3 font-body text-sm">
               {socials.map(({ label, href, icon, color }) => (
                 <li key={label}>
-                  <a href={href} target="_blank" rel="noreferrer" className="flex items-center gap-3 text-primary-foreground/80 transition hover:text-primary-foreground">
+                  <a href={href} target="_blank" rel="noreferrer" aria-label={`Follow Mohamed Kelany on ${label}`} className="flex items-center gap-3 rounded-full text-primary-foreground/80 transition hover:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary">
                     <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary-foreground/10" style={{ color }}>
                       {icon}
                     </span>
@@ -153,7 +153,8 @@ export default function LivingFooter() {
                 href="https://www.tripadvisor.com/Attraction_Review-g303857-d26610134-Reviews-Mohamed_Kelany-Siwa_Matrouh_Governorate.html"
                 target="_blank"
                 rel="noreferrer"
-                className="group inline-flex flex-col gap-1 rounded-2xl border border-primary-foreground/15 p-5 transition hover:bg-primary-foreground/5"
+                aria-label="Read 5.0-star reviews of Mohamed Kelany on Tripadvisor"
+                className="group inline-flex flex-col gap-1 rounded-2xl border border-primary-foreground/15 p-5 transition hover:bg-primary-foreground/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
               >
                 <div className="flex items-center gap-1">
                   {[...Array(5)].map((_, i) => (

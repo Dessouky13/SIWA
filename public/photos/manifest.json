@@ -1,0 +1,91 @@
+{
+  "hero": { "jpg": "/photos/hero.jpg", "webp": "/photos/hero.webp" },
+  "philosophy": { "jpg": "/photos/philosophy.jpg", "webp": "/photos/philosophy.webp" },
+  "featureStrip": { "jpg": "/photos/feature-strip.jpg", "webp": "/photos/feature-strip.webp" },
+  "socialAccent": { "jpg": "/photos/social-accent.jpg", "webp": "/photos/social-accent.webp" },
+  "experiences": {
+    "salt-lake": {
+      "cover": { "jpg": "/photos/exp-salt-lake-cover.jpg", "webp": "/photos/exp-salt-lake-cover.webp" },
+      "gallery": [
+        { "jpg": "/photos/exp-salt-lake-1.jpg", "webp": "/photos/exp-salt-lake-1.webp" },
+        { "jpg": "/photos/exp-salt-lake-2.jpg", "webp": "/photos/exp-salt-lake-2.webp" },
+        { "jpg": "/photos/exp-salt-lake-3.jpg", "webp": "/photos/exp-salt-lake-3.webp" },
+        { "jpg": "/photos/exp-salt-lake-4.jpg", "webp": "/photos/exp-salt-lake-4.webp" },
+        { "jpg": "/photos/exp-salt-lake-5.jpg", "webp": "/photos/exp-salt-lake-5.webp" },
+        { "jpg": "/photos/exp-salt-lake-6.jpg", "webp": "/photos/exp-salt-lake-6.webp" }
+      ]
+    },
+    "springs": {
+      "cover": { "jpg": "/photos/exp-springs-cover.jpg", "webp": "/photos/exp-springs-cover.webp" },
+      "gallery": [
+        { "jpg": "/photos/exp-springs-1.jpg", "webp": "/photos/exp-springs-1.webp" },
+        { "jpg": "/photos/exp-springs-2.jpg", "webp": "/photos/exp-springs-2.webp" },
+        { "jpg": "https://media.base44.com/images/public/6a27d392c56bb9d87f135152/60ca68183_generated_image.png", "webp": "https://media.base44.com/images/public/6a27d392c56bb9d87f135152/60ca68183_generated_image.png" }
+      ]
+    },
+    "safari": {
+      "cover": { "jpg": "/photos/exp-safari-cover.jpg", "webp": "/photos/exp-safari-cover.webp" },
+      "gallery": [
+        { "jpg": "/photos/exp-safari-1.jpg", "webp": "/photos/exp-safari-1.webp" },
+        { "jpg": "/photos/exp-safari-2.jpg", "webp": "/photos/exp-safari-2.webp" },
+        { "jpg": "/photos/exp-safari-3.jpg", "webp": "/photos/exp-safari-3.webp" },
+        { "jpg": "/photos/exp-safari-4.jpg", "webp": "/photos/exp-safari-4.webp" },
+        { "jpg": "/photos/exp-safari-5.jpg", "webp": "/photos/exp-safari-5.webp" },
+        { "jpg": "/photos/exp-safari-6.jpg", "webp": "/photos/exp-safari-6.webp" },
+        { "jpg": "/photos/exp-safari-7.jpg", "webp": "/photos/exp-safari-7.webp" }
+      ]
+    },
+    "temple": {
+      "cover": { "jpg": "/photos/exp-temple-cover.jpg", "webp": "/photos/exp-temple-cover.webp" },
+      "gallery": []
+    },
+    "shali": {
+      "cover": { "jpg": "https://media.base44.com/images/public/6a27d392c56bb9d87f135152/b711f0c23_generated_image.png", "webp": "https://media.base44.com/images/public/6a27d392c56bb9d87f135152/b711f0c23_generated_image.png" },
+      "gallery": [
+        { "jpg": "/photos/exp-shali-1.jpg", "webp": "/photos/exp-shali-1.webp" },
+        { "jpg": "/photos/exp-shali-2.jpg", "webp": "/photos/exp-shali-2.webp" }
+      ]
+    },
+    "white-desert": {
+      "cover": { "jpg": "/photos/exp-white-desert-cover.jpg", "webp": "/photos/exp-white-desert-cover.webp" },
+      "gallery": [
+        { "jpg": "/photos/exp-white-desert-1.jpg", "webp": "/photos/exp-white-desert-1.webp" },
+        { "jpg": "/photos/exp-white-desert-2.jpg", "webp": "/photos/exp-white-desert-2.webp" },
+        { "jpg": "/photos/exp-white-desert-3.jpg", "webp": "/photos/exp-white-desert-3.webp" },
+        { "jpg": "/photos/exp-white-desert-4.jpg", "webp": "/photos/exp-white-desert-4.webp" },
+        { "jpg": "/photos/exp-white-desert-5.jpg", "webp": "/photos/exp-white-desert-5.webp" },
+        { "jpg": "/photos/exp-white-desert-6.jpg", "webp": "/photos/exp-white-desert-6.webp" }
+      ]
+    },
+    "sunset-island": {
+      "cover": { "jpg": "/photos/exp-sunset-island-cover.jpg", "webp": "/photos/exp-sunset-island-cover.webp" },
+      "gallery": [
+        { "jpg": "/photos/exp-sunset-island-1.jpg", "webp": "/photos/exp-sunset-island-1.webp" },
+        { "jpg": "/photos/exp-sunset-island-2.jpg", "webp": "/photos/exp-sunset-island-2.webp" },
+        { "jpg": "/photos/exp-sunset-island-3.jpg", "webp": "/photos/exp-sunset-island-3.webp" },
+        { "jpg": "/photos/exp-sunset-island-4.jpg", "webp": "/photos/exp-sunset-island-4.webp" },
+        { "jpg": "/photos/exp-sunset-island-5.jpg", "webp": "/photos/exp-sunset-island-5.webp" }
+      ]
+    }
+  },
+  "programs": {
+    "siwa-1n": { "hero": { "jpg": "/photos/pkg-siwa-1n.jpg", "webp": "/photos/pkg-siwa-1n.webp" } },
+    "siwa-2n": { "hero": { "jpg": "/photos/pkg-siwa-2n.jpg", "webp": "/photos/pkg-siwa-2n.webp" } },
+    "siwa-4n": { "hero": { "jpg": "/photos/pkg-siwa-4n.jpg", "webp": "/photos/pkg-siwa-4n.webp" } },
+    "siwa-5n": { "hero": { "jpg": "/photos/pkg-siwa-5n.jpg", "webp": "/photos/pkg-siwa-5n.webp" } },
+    "bahariya-1n": { "hero": { "jpg": "/photos/pkg-bahariya-1n.jpg", "webp": "/photos/pkg-bahariya-1n.webp" } },
+    "white-desert-3n": { "hero": { "jpg": "/photos/pkg-white-desert-3n.jpg", "webp": "/photos/pkg-white-desert-3n.webp" } }
+  },
+  "blog": [
+    { "jpg": "/photos/blog-1.jpg", "webp": "/photos/blog-1.webp" },
+    { "jpg": "/photos/blog-2.jpg", "webp": "/photos/blog-2.webp" },
+    { "jpg": "/photos/blog-3.jpg", "webp": "/photos/blog-3.webp" },
+    { "jpg": "/photos/blog-4.jpg", "webp": "/photos/blog-4.webp" },
+    { "jpg": "/photos/blog-5.jpg", "webp": "/photos/blog-5.webp" },
+    { "jpg": "/photos/blog-6.jpg", "webp": "/photos/blog-6.webp" }
+  ],
+  "aiFallback": {
+    "shali": "https://media.base44.com/images/public/6a27d392c56bb9d87f135152/b711f0c23_generated_image.png",
+    "saltCave": "https://media.base44.com/images/public/6a27d392c56bb9d87f135152/60ca68183_generated_image.png"
+  }
+}
