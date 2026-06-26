@@ -59,7 +59,7 @@ const idx = {
 
 // Aspect/width targets per slot type
 const A = {
-  hero: { w: 2048, h: Math.round(2048 * 9 / 16) },      // 16:9 (native width of best source — no upscaling)
+  hero: { w: 2400, h: Math.round(2400 * 9 / 16) },      // 16:9 (high-res licensed hero source)
   philosophy: { w: 2200, h: Math.round(2200 * 9 / 21) }, // 21:9
   feature: { w: 2200, h: Math.round(2200 * 9 / 21) },    // 21:9
   cover: { w: 1200, h: Math.round(1200 * 3 / 4) },       // 4:3
@@ -71,7 +71,7 @@ const A = {
 
 // slot list: { name, src(index), type }
 const slots = [
-  { name: 'hero', src: 31, type: 'hero' }, // tea-at-sunset (00000082) — sharpest source + on-brand mint-tea ritual
+  { name: 'hero', file: 'hero-oasis-unsplash.jpg', type: 'hero' }, // premium Siwa salt-lakes hero (Unsplash, free commercial license)
   { name: 'philosophy', src: 19, type: 'philosophy' },
   { name: 'feature-strip', src: 38, type: 'feature' },
   { name: 'social-accent', src: 29, type: 'social' },
@@ -137,8 +137,8 @@ const slots = [
 ];
 
 async function processSlot(slot) {
-  const file = idx[slot.src];
-  if (!file) throw new Error(`No source mapped for index ${slot.src} (${slot.name})`);
+  const file = slot.file ?? idx[slot.src];
+  if (!file) throw new Error(`No source mapped for ${slot.name}`);
   const srcPath = path.join(SRC_DIR, file);
   if (!fs.existsSync(srcPath)) throw new Error(`Missing source ${srcPath}`);
 
