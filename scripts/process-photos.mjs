@@ -59,7 +59,7 @@ const idx = {
 
 // Aspect/width targets per slot type
 const A = {
-  hero: { w: 2400, h: Math.round(2400 * 9 / 16) },      // 16:9
+  hero: { w: 2048, h: Math.round(2048 * 9 / 16) },      // 16:9 (native width of best source — no upscaling)
   philosophy: { w: 2200, h: Math.round(2200 * 9 / 21) }, // 21:9
   feature: { w: 2200, h: Math.round(2200 * 9 / 21) },    // 21:9
   cover: { w: 1200, h: Math.round(1200 * 3 / 4) },       // 4:3
@@ -71,7 +71,7 @@ const A = {
 
 // slot list: { name, src(index), type }
 const slots = [
-  { name: 'hero', src: 33, type: 'hero' },
+  { name: 'hero', src: 31, type: 'hero' }, // tea-at-sunset (00000082) — sharpest source + on-brand mint-tea ritual
   { name: 'philosophy', src: 19, type: 'philosophy' },
   { name: 'feature-strip', src: 38, type: 'feature' },
   { name: 'social-accent', src: 29, type: 'social' },
@@ -81,14 +81,14 @@ const slots = [
   { name: 'exp-springs-cover', src: 16, type: 'cover' },
   { name: 'exp-safari-cover', src: 25, type: 'cover' },
   { name: 'exp-temple-cover', src: 5, type: 'cover' },
-  { name: 'exp-white-desert-cover', src: 0, type: 'cover' },
+  { name: 'exp-white-desert-cover', src: 43, type: 'cover' }, // was QR (#0); now iconic White Desert rock
   { name: 'exp-sunset-island-cover', src: 14, type: 'cover' },
 
   // experience galleries (<id>-N)
   { name: 'exp-salt-lake-1', src: 28, type: 'gallery' },
   { name: 'exp-salt-lake-2', src: 7, type: 'gallery' },
   { name: 'exp-salt-lake-3', src: 34, type: 'gallery' },
-  { name: 'exp-salt-lake-4', src: 31, type: 'gallery' },
+  { name: 'exp-salt-lake-4', src: 13, type: 'gallery' }, // was 31 (now hero); salt-lake reflection walk
   { name: 'exp-salt-lake-5', src: 10, type: 'gallery' },
   { name: 'exp-salt-lake-6', src: 18, type: 'gallery' },
 
@@ -123,8 +123,8 @@ const slots = [
   { name: 'pkg-siwa-1n', src: 28, type: 'pkg' },
   { name: 'pkg-siwa-2n', src: 26, type: 'pkg' },
   { name: 'pkg-siwa-4n', src: 12, type: 'pkg' },
-  { name: 'pkg-siwa-5n', src: 31, type: 'pkg' },
-  { name: 'pkg-bahariya-1n', src: 0, type: 'pkg' },
+  { name: 'pkg-siwa-5n', src: 18, type: 'pkg' }, // was 31 (now hero); serene salt lake for the retreat
+  { name: 'pkg-bahariya-1n', src: 40, type: 'pkg' }, // was QR (#0); now White Desert 4x4
   { name: 'pkg-white-desert-3n', src: 41, type: 'pkg' },
 
   // blog
@@ -151,7 +151,11 @@ async function processSlot(slot) {
       .rotate() // auto-orient by EXIF
       .resize(w, h, {
         fit: 'cover',
-        position: sharp.strategy.attention, // smart crop
+        // Center crop is predictable for these phone photos (the subject is almost
+        // always centered); the old `attention` strategy occasionally zoomed onto a
+        // bright/high-entropy patch and cropped the subject out. Small gallery thumbs
+        // still use attention (subject-finding helps there). Per-slot `g` overrides.
+        position: slot.g ?? (slot.type === 'gallery' ? sharp.strategy.attention : sharp.gravity.centre),
         kernel: sharp.kernel.lanczos3,
         withoutEnlargement: false, // UPSCALE small images
       })

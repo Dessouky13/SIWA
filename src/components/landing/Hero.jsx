@@ -19,7 +19,7 @@ export default function Hero() {
           <source srcSet={hero.webp} type="image/webp" />
           <img
             src={hero.jpg}
-            alt="Local Siwa guide at the edge of the Great Sand Sea during golden hour"
+            alt="Two glasses of Bedouin mint tea on the dunes at sunset in the Siwa desert"
             className="h-full w-full object-cover heat-haze"
             loading="eager"
             fetchpriority="high"
