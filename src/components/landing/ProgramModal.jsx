@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Clock, Star, ArrowRight, Check, MapPin } from 'lucide-react';
+import { X, Clock, Star, ArrowRight, CalendarCheck, Check, MapPin } from 'lucide-react';
 import { useSiteContent } from '@/lib/siteContent';
 import { useLanguage } from '@/lib/LanguageContext';
 import { waLink } from '@/lib/whatsapp';
@@ -157,7 +157,7 @@ export default function ProgramModal({ program, onClose }) {
                 rel="noreferrer"
                 className="salt-crystal inline-flex items-center gap-3 rounded-full bg-primary-foreground px-7 py-4 font-body text-sm font-bold uppercase tracking-[0.2em] text-primary transition hover:-translate-y-1"
               >
-                {brand.bookCta ?? 'Reserve via WhatsApp'} <ArrowRight className="h-4 w-4" />
+                <CalendarCheck className="h-4 w-4" /> {brand.bookNow ?? 'Book now'}
               </a>
             </div>
           </div>

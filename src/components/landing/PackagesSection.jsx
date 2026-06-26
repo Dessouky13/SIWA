@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Star, Flame, Award, Compass, Sparkles, Moon, MountainSnow } from 'lucide-react';
+import { Star, Flame, Award, Compass, Sparkles, Moon, MountainSnow, CalendarCheck } from 'lucide-react';
 import { useSiteContent } from '@/lib/siteContent';
 import ProgramModal from './ProgramModal';
 import { waLink } from '@/lib/whatsapp';
@@ -115,25 +115,25 @@ export default function PackagesSection() {
                       </p>
                     )}
 
-                    <div className={`mt-8 flex flex-col gap-3 rounded-2xl p-5 ${highlight ? 'bg-primary-foreground/15' : 'bg-muted/60'}`}>
+                    <div className={`mt-8 flex flex-col gap-2.5 rounded-2xl p-5 ${highlight ? 'bg-primary-foreground/15' : 'bg-muted/60'}`}>
                       <p className={`font-body text-sm leading-6 ${highlight ? 'text-primary-foreground/90' : 'text-muted-foreground'}`}>{brand.priceOnRequest}</p>
-                      <div className="flex gap-3">
-                        <button
-                          type="button"
-                          onClick={() => setModalProgram(program)}
-                          className={`flex-1 rounded-full border py-3 text-sm font-semibold transition hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 ${highlight ? 'border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10' : 'border-border text-foreground hover:bg-muted'}`}
-                        >
-                          {brand.detailsCta ?? 'View itinerary'}
-                        </button>
-                        <a
-                          href={waLink(`${brand.bookCta ?? 'Booking enquiry'} — ${program.name}`)}
-                          target="_blank"
-                          rel="noreferrer"
-                          className={`flex flex-1 items-center justify-center gap-2 rounded-full py-3 text-sm font-bold transition hover:scale-105 ${highlight ? 'bg-primary-foreground text-primary' : 'bg-primary text-primary-foreground'}`}
-                        >
-                          <WhatsAppGlyph className="h-4 w-4" /> {brand.bookCta ?? 'Book'}
-                        </a>
-                      </div>
+                      {/* Primary, full-width "Book now" CTA — roomy enough for long languages */}
+                      <a
+                        href={waLink(`${brand.bookCta ?? 'Booking enquiry'} — ${program.name}`)}
+                        target="_blank"
+                        rel="noreferrer"
+                        className={`flex w-full items-center justify-center gap-2 rounded-full py-3.5 text-sm font-bold transition hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${highlight ? 'bg-primary-foreground text-primary focus-visible:ring-primary-foreground' : 'bg-primary text-primary-foreground focus-visible:ring-primary'}`}
+                      >
+                        <CalendarCheck className="h-4 w-4" /> {brand.bookNow ?? 'Book now'}
+                        <WhatsAppGlyph className="h-4 w-4 opacity-80" />
+                      </a>
+                      <button
+                        type="button"
+                        onClick={() => setModalProgram(program)}
+                        className={`flex w-full items-center justify-center rounded-full border py-3 text-sm font-semibold transition hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 ${highlight ? 'border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10' : 'border-border text-foreground hover:bg-muted'}`}
+                      >
+                        {brand.detailsCta ?? 'View itinerary'}
+                      </button>
                     </div>
                   </div>
                 </motion.div>
