@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowUpRight, Clock, Users, ChevronRight } from 'lucide-react';
+import { ArrowUpRight, Users, Star, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/lib/LanguageContext';
 import { useSiteContent } from '@/lib/siteContent';
@@ -10,35 +10,47 @@ export default function ExperienceMatrix() {
   const [active, setActive] = useState(null);
   const { t } = useLanguage();
   const content = useSiteContent();
-  const experiences = resolveExperiences(content);
+  // White Desert is already covered as a full package — remove it from the
+  // experiences grid to avoid the duplicate that confused visitors.
+  const experiences = resolveExperiences(content).filter(e => e.id !== 'white-desert');
 
   return (
     <>
-      <section id="experiences" className="overflow-hidden border-y border-border/60 bg-muted/40 px-6 py-20 md:px-10 md:py-28">
+      <section id="experiences" className="border-y border-border/60 bg-muted/40 px-6 py-24 md:px-10">
         <div className="mx-auto max-w-7xl">
-          {/* Header */}
-          <div className="mx-auto max-w-3xl text-center">
-            <p className="font-body text-xs uppercase tracking-[0.35em] text-primary md:text-sm">{t('expLabel')}</p>
-            <h2 className="mt-4 font-display text-4xl leading-[1.05] text-foreground md:mt-5 md:text-5xl lg:text-6xl">{t('expTitle')}</h2>
-            <p className="mx-auto mt-5 max-w-2xl font-body text-base leading-7 text-muted-foreground md:mt-6 md:text-lg md:leading-8">
-              {t('expDesc')}
-            </p>
+
+          {/* Header — same pattern as the Packages section */}
+          <div className="grid gap-8 md:grid-cols-2 md:items-end">
+            <div>
+              <p className="font-body text-sm uppercase tracking-[0.35em] text-primary">{t('expLabel')}</p>
+              <h2 className="mt-4 font-display text-4xl leading-[1.05] text-foreground md:mt-5 md:text-5xl lg:text-6xl">{t('expTitle')}</h2>
+            </div>
+            <div>
+              <p className="font-body text-lg leading-8 text-muted-foreground">{t('expDesc')}</p>
+              <div className="mt-5 flex flex-wrap gap-4">
+                <span className="flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-sm">
+                  <Star className="h-4 w-4 fill-secondary text-secondary" /> 5.0 Tripadvisor
+                </span>
+                <span className="flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-sm">
+                  <Sparkles className="h-4 w-4 text-primary" /> Private &amp; small group
+                </span>
+              </div>
+            </div>
           </div>
 
-          {/* Cards — full-bleed snap scroll on mobile, grid on md+ */}
-          <div className="-mx-6 mt-10 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-2 no-scrollbar md:mx-0 md:mt-14 md:grid md:grid-cols-2 md:gap-6 md:overflow-visible md:px-0 md:pb-8 lg:grid-cols-4">
+          {/* Cards grid — 1 col mobile, 2 col tablet, 3 col desktop */}
+          <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {experiences.map((item, index) => (
               <motion.article
                 key={item.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.08 }}
-                onClick={() => setActive(item)}
-                className="group min-w-[80vw] shrink-0 snap-start cursor-pointer overflow-hidden rounded-panel border border-border bg-card shadow-sm transition hover:-translate-y-2 hover:shadow-2xl md:min-w-0 md:shrink"
+                transition={{ delay: index * 0.07 }}
+                className="group flex flex-col overflow-hidden rounded-panel border border-border bg-card transition hover:-translate-y-1 hover:shadow-2xl"
               >
                 {/* Cover image */}
-                <div className="relative h-48 overflow-hidden md:h-72">
+                <div className="relative h-52 overflow-hidden rounded-t-panel">
                   <picture>
                     {item.coverImage?.webp && (
                       <source srcSet={item.coverImage.webp} type="image/webp" />
@@ -51,48 +63,34 @@ export default function ExperienceMatrix() {
                       className="h-full w-full object-cover transition duration-700 group-hover:scale-105 heat-haze"
                     />
                   </picture>
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
-                  {/* Tag badge */}
-                  <div className="absolute start-4 top-4 rounded-full bg-background/85 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-foreground backdrop-blur">
+                  <div className="absolute inset-0 bg-gradient-to-t from-foreground/40 to-transparent" />
+                  <span className="absolute start-5 top-5 rounded-full bg-background/90 px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-foreground backdrop-blur">
                     {item.tag}
-                  </div>
-                  {/* Tap affordance — always shown on mobile, hover-only on desktop */}
-                  <div className="absolute bottom-4 end-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground transition duration-300 md:h-12 md:w-12 md:opacity-0 md:group-hover:opacity-100">
-                    <ArrowUpRight className="h-4 w-4 md:h-5 md:w-5" />
-                  </div>
+                  </span>
                 </div>
 
                 {/* Body */}
-                <div className="p-5 md:p-7">
-                  <div className="flex items-start justify-between gap-3">
-                    <h3 className="font-heading text-xl leading-snug text-foreground md:text-3xl">{item.title}</h3>
-                    <ArrowUpRight className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary transition group-hover:rotate-45 md:h-6 md:w-6" />
-                  </div>
-                  <div className="mt-3 flex flex-wrap gap-2 text-xs text-muted-foreground">
-                    <span className="flex items-center gap-1.5"><Clock className="h-3 w-3 text-primary" />{item.duration}</span>
-                    <span className="flex items-center gap-1.5"><Users className="h-3 w-3 text-primary" />{item.groupSize}</span>
-                  </div>
-                  <p className="mt-3 font-body text-sm leading-6 text-muted-foreground line-clamp-2 md:mt-4 md:text-base md:leading-7">{item.desc}</p>
-                  <div className="mt-4 flex items-center justify-between md:mt-6">
-                    <span className="font-body text-xs text-muted-foreground/60">Tap to explore</span>
-                    <span className="rounded-full border border-primary px-3 py-1.5 text-xs font-semibold text-primary transition group-hover:bg-primary group-hover:text-primary-foreground md:px-4 md:py-2">
-                      {t('explore')}
-                    </span>
+                <div className="flex flex-1 flex-col p-7">
+                  <p className="font-body text-xs uppercase tracking-[0.2em] text-muted-foreground">{item.duration}</p>
+                  <h3 className="mt-3 font-heading text-2xl text-foreground">{item.title}</h3>
+                  <p className="mt-1 font-body text-sm text-muted-foreground">
+                    <Users className="mr-1 inline h-3.5 w-3.5 text-primary" />{item.groupSize}
+                  </p>
+                  <p className="mt-4 flex-1 font-body text-sm leading-6 text-muted-foreground line-clamp-3">{item.desc}</p>
+
+                  {/* CTA */}
+                  <div className="mt-8 rounded-2xl bg-muted/60 p-5">
+                    <button
+                      type="button"
+                      onClick={() => setActive(item)}
+                      className="flex w-full items-center justify-center gap-2 rounded-full bg-primary py-3.5 text-sm font-bold text-primary-foreground transition hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                    >
+                      <ArrowUpRight className="h-4 w-4" /> {t('explore')}
+                    </button>
                   </div>
                 </div>
               </motion.article>
             ))}
-            {/* Trailing spacer so the last card isn't flush against the viewport edge */}
-            <div className="w-2 shrink-0 md:hidden" aria-hidden="true" />
-          </div>
-
-          {/* Swipe hint — mobile only */}
-          <div className="mt-4 flex items-center justify-center gap-1.5 md:hidden">
-            <ChevronRight className="h-3.5 w-3.5 text-muted-foreground/60" />
-            <span className="font-body text-xs text-muted-foreground/60">
-              Swipe to see all {experiences.length} experiences
-            </span>
-            <ChevronRight className="h-3.5 w-3.5 text-muted-foreground/60" />
           </div>
         </div>
       </section>
