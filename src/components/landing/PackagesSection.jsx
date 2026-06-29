@@ -51,7 +51,7 @@ export default function PackagesSection() {
           <div className="grid gap-8 md:grid-cols-2 md:items-end">
             <div>
               <p className="font-body text-sm uppercase tracking-[0.35em] text-primary">{brand.programsKicker}</p>
-              <h2 className="mt-5 font-display text-5xl leading-[1.05] text-foreground md:text-6xl">
+              <h2 className="mt-4 font-display text-4xl leading-[1.05] text-foreground md:mt-5 md:text-5xl lg:text-6xl">
                 {brand.programsTitle}
               </h2>
             </div>
@@ -79,10 +79,10 @@ export default function PackagesSection() {
               return (
                 <motion.div
                   key={program.id}
-                  initial={{ opacity: 0, y: 30 }}
+                  initial={{ opacity: 0, y: 18 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
+                  viewport={{ once: true, amount: 0.1 }}
+                  transition={{ delay: index * 0.05 }}
                   className={`group relative flex flex-col overflow-hidden rounded-panel border transition hover:-translate-y-1 hover:shadow-2xl ${highlight ? 'z-10 bg-primary text-primary-foreground border-primary shadow-2xl ring-2 ring-secondary/60 lg:-mt-4 lg:mb-4 lg:scale-[1.04]' : 'bg-card border-border text-foreground'}`}
                 >
                   <div className="relative h-52 overflow-hidden rounded-t-panel">
@@ -143,9 +143,9 @@ export default function PackagesSection() {
 
           {/* White Desert feature strip (manifest.featureStrip) */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 18 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, amount: 0.1 }}
             className="mt-12 overflow-hidden rounded-panel border border-border"
           >
             <div className="relative">
@@ -156,24 +156,25 @@ export default function PackagesSection() {
                   alt="White Desert camping under the stars, Egypt"
                   loading="lazy"
                   decoding="async"
-                  className="h-64 w-full object-cover md:h-80 heat-haze"
+                  className="h-72 w-full object-cover md:h-80 heat-haze"
                 />
               </picture>
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/40 to-transparent" />
-              <div className="absolute inset-0 flex flex-col justify-center px-8 md:px-14">
-                <p className="font-body text-sm uppercase tracking-[0.3em] text-secondary">{featureProgram?.badge ?? 'Signature add-on'}</p>
-                <h3 className="mt-3 max-w-2xl font-display text-4xl leading-tight text-primary-foreground md:text-5xl">
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/50 to-transparent" />
+              <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-14">
+                <p className="font-body text-xs uppercase tracking-[0.3em] text-secondary md:text-sm">{featureProgram?.badge ?? 'Signature add-on'}</p>
+                <h3 className="mt-2 font-display text-2xl leading-tight text-primary-foreground md:mt-3 md:max-w-2xl md:text-5xl">
                   {featureProgram?.name ?? 'The White Desert Odyssey'}
                 </h3>
-                <p className="mt-4 max-w-xl font-body text-base leading-7 text-primary-foreground/80">
+                {/* Description hidden on mobile — not enough vertical space in the image */}
+                <p className="mt-3 hidden max-w-xl font-body text-base leading-7 text-primary-foreground/80 md:mt-4 md:block">
                   {featureProgram?.summary ?? featureProgram?.subtitle}
                 </p>
-                <div className="mt-6 flex flex-wrap gap-4">
+                <div className="mt-4 flex flex-wrap gap-3 md:mt-6 md:gap-4">
                   {featureProgram && (
                     <button
                       type="button"
                       onClick={() => setModalProgram(featureProgram)}
-                      className="rounded-full bg-primary-foreground px-6 py-3 text-sm font-bold text-primary transition hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
+                      className="rounded-full bg-primary-foreground px-5 py-2.5 text-xs font-bold text-primary transition hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary md:px-6 md:py-3 md:text-sm"
                     >
                       {brand.viewItinerary ?? 'See the full itinerary'}
                     </button>
@@ -182,9 +183,9 @@ export default function PackagesSection() {
                     href={waLink(`${brand.bookCta ?? 'Booking enquiry'} — ${featureProgram?.name ?? 'White Desert'}`)}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/40 px-6 py-3 text-sm font-semibold text-primary-foreground transition hover:bg-primary-foreground/10"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-primary-foreground/40 px-5 py-2.5 text-xs font-semibold text-primary-foreground transition hover:bg-primary-foreground/10 md:gap-2 md:px-6 md:py-3 md:text-sm"
                   >
-                    <WhatsAppGlyph className="h-4 w-4" /> {brand.whatsappCta ?? 'Message us on WhatsApp'}
+                    <WhatsAppGlyph className="h-3.5 w-3.5 md:h-4 md:w-4" /> {brand.whatsappCta ?? 'Message us on WhatsApp'}
                   </a>
                 </div>
               </div>

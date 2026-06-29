@@ -43,10 +43,10 @@ export default function ExperienceMatrix() {
             {experiences.map((item, index) => (
               <motion.article
                 key={item.id}
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 18 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.07 }}
+                viewport={{ once: true, amount: 0.1 }}
+                transition={{ delay: index * 0.05 }}
                 className="group flex flex-col overflow-hidden rounded-panel border border-border bg-card transition hover:-translate-y-1 hover:shadow-2xl"
               >
                 {/* Cover image */}

@@ -14,7 +14,7 @@ export default function PhilosophyBand() {
     .filter(Boolean);
 
   return (
-    <section id="philosophy" className="relative overflow-hidden bg-background px-6 py-28 text-foreground md:px-10">
+    <section id="philosophy" className="relative overflow-hidden bg-background px-6 py-20 text-foreground md:px-10 md:py-28">
       {/* Soft side image as a calm, editorial backdrop on large screens */}
       <div className="pointer-events-none absolute inset-y-0 end-0 hidden w-[42%] lg:block">
         <picture>
@@ -32,15 +32,15 @@ export default function PhilosophyBand() {
 
       <div className="relative z-10 mx-auto max-w-3xl">
         <motion.div
-          initial={{ opacity: 0, y: 28 }}
+          initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.8 }}
+          viewport={{ once: true, amount: 0.1 }}
+          transition={{ duration: 0.7 }}
         >
           <p className="font-body text-sm uppercase tracking-[0.35em] text-secondary">
             {brand.philosophyKicker}
           </p>
-          <h2 className="mt-6 font-display text-4xl leading-[1.05] tracking-tight md:text-6xl">
+          <h2 className="mt-5 font-display text-3xl leading-[1.05] tracking-tight md:mt-6 md:text-5xl lg:text-6xl">
             {brand.philosophyTitle}
           </h2>
 

@@ -2,6 +2,11 @@
 module.exports = {
     darkMode: ["class"],
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
+    future: {
+      // Wrap hover: utilities in @media (hover: hover) so touch devices never
+      // get sticky hover states (card lift, image zoom, etc.) after a tap.
+      hoverOnlyWhenSupported: true,
+    },
   theme: {
   	extend: {
   		borderRadius: {
