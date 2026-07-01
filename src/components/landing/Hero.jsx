@@ -19,7 +19,7 @@ export default function Hero() {
           <source srcSet={hero.webp} type="image/webp" />
           <img
             src={hero.jpg}
-            alt="Turquoise salt lake reflecting the sky in Siwa Oasis, Egypt"
+            alt="Golden sand dunes of the Great Sand Sea stretching to the horizon at Siwa Oasis, Egypt"
             className="h-full w-full object-cover heat-haze"
             loading="eager"
             fetchpriority="high"
