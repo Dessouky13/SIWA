@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap');
-
+/* Fonts are loaded via preconnect + <link> in index.html (non-render-blocking). */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

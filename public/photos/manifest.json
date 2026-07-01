@@ -1,5 +1,5 @@
 {
-  "hero": { "jpg": "/photos/hero.jpg", "webp": "/photos/hero.webp" },
+  "hero": { "jpg": "/photos/hero.jpg", "webp": "/photos/hero.webp", "jpgMobile": "/photos/hero-mobile.jpg", "webpMobile": "/photos/hero-mobile.webp" },
   "philosophy": { "jpg": "/photos/philosophy.jpg", "webp": "/photos/philosophy.webp" },
   "featureStrip": { "jpg": "/photos/feature-strip.jpg", "webp": "/photos/feature-strip.webp" },
   "socialAccent": { "jpg": "/photos/social-accent.jpg", "webp": "/photos/social-accent.webp" },

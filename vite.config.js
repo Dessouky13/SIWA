@@ -16,5 +16,19 @@ export default defineConfig({
       visualEditAgent: true
     }),
     react(),
-  ]
+  ],
+  build: {
+    rollupOptions: {
+      output: {
+        // Split large, stable vendors into their own long-term-cacheable chunks
+        // so they don't re-download when app code changes.
+        manualChunks(id) {
+          if (!id.includes('node_modules')) return;
+          if (id.includes('framer-motion')) return 'motion';
+          if (id.includes('react-router')) return 'router';
+          if (id.includes('@tanstack')) return 'query';
+        },
+      },
+    },
+  },
 });

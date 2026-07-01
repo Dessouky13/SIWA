@@ -1,31 +1,54 @@
+import { useEffect, useState } from 'react';
 import { useLanguage } from '@/lib/LanguageContext';
 
 import en from '@/content/en.json';
-import ko from '@/content/ko.json';
-import fr from '@/content/fr.json';
-import de from '@/content/de.json';
-import es from '@/content/es.json';
-import it from '@/content/it.json';
-import ru from '@/content/ru.json';
-import zh from '@/content/zh.json';
 
-const content = { en, ko, fr, de, es, it, ru, zh };
+// English ships in the initial bundle as the instant default. Every other
+// language is a separate chunk fetched on demand the first time it's selected,
+// so a default (English) visitor never downloads the other seven.
+const loaders = {
+  ko: () => import('@/content/ko.json'),
+  fr: () => import('@/content/fr.json'),
+  de: () => import('@/content/de.json'),
+  es: () => import('@/content/es.json'),
+  it: () => import('@/content/it.json'),
+  ru: () => import('@/content/ru.json'),
+  zh: () => import('@/content/zh.json'),
+};
+
+const cache = { en };
 
 /**
- * Return the content object for a language code, falling back to English
- * for any unknown / missing code.
+ * Return the loaded content object for a language code, falling back to English
+ * for any code that is unknown or not yet fetched.
  */
 export function getContent(langCode) {
-  return content[langCode] ?? content.en;
+  return cache[langCode] ?? en;
 }
 
 /**
- * Hook that reads the active language via useLanguage() and returns the
- * matching content object (English fallback).
+ * Hook that reads the active language via useLanguage() and returns the matching
+ * content object. Non-English content loads lazily; English is shown until the
+ * requested language's chunk resolves, at which point the component re-renders.
  */
 export function useSiteContent() {
   const ctx = useLanguage();
-  return getContent(ctx?.lang);
+  const lang = ctx?.lang ?? 'en';
+  const [, forceRender] = useState(0);
+
+  useEffect(() => {
+    if (cache[lang] || !loaders[lang]) return;
+    let active = true;
+    loaders[lang]().then((mod) => {
+      cache[lang] = mod.default ?? mod;
+      if (active) forceRender((n) => n + 1);
+    });
+    return () => {
+      active = false;
+    };
+  }, [lang]);
+
+  return cache[lang] ?? en;
 }
 
 /** Find an experience by id within a content object. */

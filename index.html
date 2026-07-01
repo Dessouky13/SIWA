@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#00A3AD" />
 
+    <!-- Fonts: preconnect + non-blocking stylesheet (replaces render-blocking CSS @import) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" />
+
+    <!-- Preload the LCP hero image (mobile + desktop variants) -->
+    <link rel="preload" as="image" href="/photos/hero-mobile.webp" type="image/webp" media="(max-width: 768px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="/photos/hero.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high" />
+
     <!-- Primary SEO -->
     <title>Luxury Siwa Oasis Tours | Private Desert Experiences with Kelany</title>
     <meta name="description" content="Private, luxury Siwa Oasis and White Desert tours with local guide Mohamed Kelany. Tailored desert safaris, salt lakes, Shali Fortress, hot springs and Great Sand Sea journeys — crafted for travellers who want the real Siwa." />

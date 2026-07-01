@@ -32,14 +32,23 @@ export default function TopBar({ wordmark = 'Siwa with Kelany', homeHref = '#arr
         }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10">
-          <a href={homeHref} className="flex items-center transition hover:opacity-80">
-            {dark ? (
-              <span className="font-body text-sm font-semibold uppercase tracking-[0.3em] text-primary-foreground">
-                {wordmark}
+          <a href={homeHref} aria-label={wordmark} className="flex items-center gap-2.5 transition hover:opacity-90">
+            <img
+              src="/logo-mark.png"
+              alt=""
+              aria-hidden="true"
+              width="40"
+              height="40"
+              className="h-9 w-9 flex-shrink-0 md:h-10 md:w-10"
+            />
+            <span className="flex flex-col leading-none">
+              <span className={`font-display text-lg font-semibold tracking-[0.16em] md:text-xl ${dark ? 'text-primary-foreground' : 'text-foreground'}`}>
+                SIWA
               </span>
-            ) : (
-              <img src="/logo.png" alt="Siwa with Kelany" className="h-9 w-auto" />
-            )}
+              <span className={`mt-0.5 font-body text-[0.6rem] font-medium uppercase tracking-[0.34em] ${dark ? 'text-primary-foreground/70' : 'text-muted-foreground'}`}>
+                with Kelany
+              </span>
+            </span>
           </a>
 
           <div className="flex items-center gap-3">

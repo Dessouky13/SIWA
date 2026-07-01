@@ -30,6 +30,18 @@ const heroBase = () =>
 await heroBase().jpeg({ quality: 90, mozjpeg: true }).toFile(path.join(PHOTOS, 'hero.jpg'));
 await heroBase().webp({ quality: 86 }).toFile(path.join(PHOTOS, 'hero.webp'));
 
+// Mobile variant — same portrait, ~760px wide. Cuts LCP bytes on phones,
+// where the hero is the largest paint and bandwidth matters most.
+const heroMobile = () =>
+  sharp(SRC)
+    .rotate()
+    .resize(760, null, { kernel: sharp.kernel.lanczos3 })
+    .modulate({ saturation: 1.03, brightness: 1.01 })
+    .sharpen({ sigma: 0.5 });
+
+await heroMobile().jpeg({ quality: 82, mozjpeg: true }).toFile(path.join(PHOTOS, 'hero-mobile.jpg'));
+await heroMobile().webp({ quality: 80 }).toFile(path.join(PHOTOS, 'hero-mobile.webp'));
+
 // ── 2. Social share card (landscape 1200×630, centred on the horizon band) ────
 const ogBase = () =>
   sharp(SRC)
@@ -41,7 +53,9 @@ const ogBase = () =>
 await ogBase().jpeg({ quality: 86, mozjpeg: true }).toFile(path.join(PHOTOS, 'og-image.jpg'));
 
 const kb = (f) => Math.round(fs.statSync(path.join(PHOTOS, f)).size / 1024);
-console.log(`OK hero.jpg      ${meta.width}×${meta.height}  ${kb('hero.jpg')}KB`);
-console.log(`OK hero.webp     ${meta.width}×${meta.height}  ${kb('hero.webp')}KB`);
-console.log(`OK og-image.jpg  1200×630  ${kb('og-image.jpg')}KB`);
+console.log(`OK hero.jpg         ${meta.width}×${meta.height}  ${kb('hero.jpg')}KB`);
+console.log(`OK hero.webp        ${meta.width}×${meta.height}  ${kb('hero.webp')}KB`);
+console.log(`OK hero-mobile.jpg  760w      ${kb('hero-mobile.jpg')}KB`);
+console.log(`OK hero-mobile.webp 760w      ${kb('hero-mobile.webp')}KB`);
+console.log(`OK og-image.jpg     1200×630  ${kb('og-image.jpg')}KB`);
 console.log('\nAll done.');

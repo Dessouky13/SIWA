@@ -16,6 +16,8 @@ export default function Hero() {
       {/* Hero image */}
       <div className="absolute inset-0">
         <picture>
+          <source media="(max-width: 768px)" srcSet={hero.webpMobile} type="image/webp" />
+          <source media="(max-width: 768px)" srcSet={hero.jpgMobile} />
           <source srcSet={hero.webp} type="image/webp" />
           <img
             src={hero.jpg}
