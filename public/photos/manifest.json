@@ -84,6 +84,14 @@
     { "jpg": "/photos/blog-5.jpg", "webp": "/photos/blog-5.webp" },
     { "jpg": "/photos/blog-6.jpg", "webp": "/photos/blog-6.webp" }
   ],
+  "transport": [
+    { "jpg": "/photos/transport-1.jpg", "webp": "/photos/transport-1.webp" },
+    { "jpg": "/photos/transport-2.jpg", "webp": "/photos/transport-2.webp" },
+    { "jpg": "/photos/transport-3.jpg", "webp": "/photos/transport-3.webp" },
+    { "jpg": "/photos/transport-4.jpg", "webp": "/photos/transport-4.webp" },
+    { "jpg": "/photos/transport-5.jpg", "webp": "/photos/transport-5.webp" },
+    { "jpg": "/photos/transport-6.jpg", "webp": "/photos/transport-6.webp" }
+  ],
   "aiFallback": {
     "shali": "https://media.base44.com/images/public/6a27d392c56bb9d87f135152/b711f0c23_generated_image.png",
     "saltCave": "https://media.base44.com/images/public/6a27d392c56bb9d87f135152/60ca68183_generated_image.png"

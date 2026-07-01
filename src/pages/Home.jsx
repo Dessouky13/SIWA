@@ -6,6 +6,7 @@ import ExperienceMatrix from '@/components/landing/ExperienceMatrix';
 import PackagesSection from '@/components/landing/PackagesSection';
 import BlogChronicle from '@/components/landing/BlogChronicle';
 import SocialProof from '@/components/landing/SocialProof';
+import TransportSection from '@/components/landing/TransportSection';
 import InquiryPanel from '@/components/landing/InquiryPanel';
 import LivingFooter from '@/components/landing/LivingFooter';
 import SocialBar from '@/components/landing/SocialBar';
@@ -19,6 +20,7 @@ export default function Home() {
       <PhilosophyBand />
       <ExperienceMatrix />
       <PackagesSection />
+      <TransportSection />
       <BlogChronicle />
       <SocialBar />
       <SocialProof />
