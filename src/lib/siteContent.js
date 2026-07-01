@@ -1,7 +1,7 @@
 import { useLanguage } from '@/lib/LanguageContext';
 
 import en from '@/content/en.json';
-import ar from '@/content/ar.json';
+import ko from '@/content/ko.json';
 import fr from '@/content/fr.json';
 import de from '@/content/de.json';
 import es from '@/content/es.json';
@@ -9,7 +9,7 @@ import it from '@/content/it.json';
 import ru from '@/content/ru.json';
 import zh from '@/content/zh.json';
 
-const content = { en, ar, fr, de, es, it, ru, zh };
+const content = { en, ko, fr, de, es, it, ru, zh };
 
 /**
  * Return the content object for a language code, falling back to English
