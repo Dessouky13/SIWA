@@ -24,7 +24,7 @@ export default function Hero() {
             alt="Golden sand dunes of the Great Sand Sea stretching to the horizon at Siwa Oasis, Egypt"
             className="h-full w-full object-cover heat-haze"
             loading="eager"
-            fetchpriority="high"
+            fetchPriority="high"
           />
         </picture>
         <div className="absolute inset-0 bg-gradient-to-t from-[#241608]/80 via-[#241608]/35 to-transparent" />

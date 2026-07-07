@@ -19,6 +19,18 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const checkAppState = async () => {
+    // Public marketing deployment: an anonymous visitor (no Base44 auth token)
+    // has no app/public-settings to fetch, and the Base44 API is not part of this
+    // static host. Skip the round-trip entirely so first paint is never blocked
+    // on a doomed request. Authenticated flows (token present) run unchanged.
+    if (!appParams.token) {
+      setIsLoadingPublicSettings(false);
+      setIsLoadingAuth(false);
+      setIsAuthenticated(false);
+      setAuthChecked(true);
+      return;
+    }
+
     try {
       setIsLoadingPublicSettings(true);
       setAuthError(null);

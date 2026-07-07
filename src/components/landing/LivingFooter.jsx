@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Wind, Clock, Phone, Mail, MapPin } from 'lucide-react';
+import { Wind, Clock, Phone, MapPin } from 'lucide-react';
 import { useLanguage } from '@/lib/LanguageContext';
 import { waLink } from '@/lib/whatsapp';
 

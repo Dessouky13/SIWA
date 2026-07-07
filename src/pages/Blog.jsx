@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Clock, MapPin, BookOpen, MessageCircle, Search } from 'lucide-react';
+import { ArrowLeft, Clock, MapPin, MessageCircle, Search } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/lib/LanguageContext';
 import { waLink } from '@/lib/whatsapp';
