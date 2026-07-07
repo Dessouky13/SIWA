@@ -40,10 +40,12 @@
       "gallery": []
     },
     "shali": {
-      "cover": { "jpg": "https://media.base44.com/images/public/6a27d392c56bb9d87f135152/b711f0c23_generated_image.png", "webp": "https://media.base44.com/images/public/6a27d392c56bb9d87f135152/b711f0c23_generated_image.png" },
+      "cover": { "jpg": "/photos/exp-shali-cover.jpg", "webp": "/photos/exp-shali-cover.webp" },
       "gallery": [
         { "jpg": "/photos/exp-shali-1.jpg", "webp": "/photos/exp-shali-1.webp" },
-        { "jpg": "/photos/exp-shali-2.jpg", "webp": "/photos/exp-shali-2.webp" }
+        { "jpg": "/photos/exp-shali-2.jpg", "webp": "/photos/exp-shali-2.webp" },
+        { "jpg": "/photos/exp-shali-3.jpg", "webp": "/photos/exp-shali-3.webp" },
+        { "jpg": "/photos/exp-shali-4.jpg", "webp": "/photos/exp-shali-4.webp" }
       ]
     },
     "white-desert": {

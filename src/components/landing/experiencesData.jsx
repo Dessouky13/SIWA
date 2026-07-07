@@ -30,15 +30,11 @@ function toPicture(entry) {
 const aiFallback = manifest?.aiFallback ?? {};
 
 /**
- * Per-experience image overrides. The brief requires:
- *  - shali cover  -> manifest.aiFallback.shali
- *  - the salt-cave gallery image (springs) -> manifest.aiFallback.saltCave
- * The springs gallery already references the salt-cave AI image directly in the
- * manifest, but we also guarantee it here so the slot is always present.
+ * Per-experience cover overrides for slots that should not use the manifest
+ * cover. Currently none — shali now has a real client photo as its cover; the
+ * salt-cave AI image is injected into the springs gallery below.
  */
-const coverOverrides = {
-  shali: aiFallback.shali,
-};
+const coverOverrides = {};
 
 /**
  * Resolve the cover + gallery <picture> sources for an experience id from the
