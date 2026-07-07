@@ -38,3 +38,6 @@ staging/
 .devserver.log
 .preview*.log
 .preview-*.png
+
+# Raw source drops at repo root (canonical copies live in NEW/)
+/ChatGPT Image*.png
